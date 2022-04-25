@@ -168,6 +168,16 @@
                 </div>
             {%- endif -%}
 
+            <!--- CASE 6 :  Book Listing page -->
+
+            {%- if page.permalink == "/books" -%}
+                <div class="column is-half">
+                    {%- includ Booklist.html -%}
+                    {%- include Feed.html -%}
+                    {%- include Footer.html -%}
+                </div>
+            {%- endif -%}
+
         </div>
     </section>     
 </body>
