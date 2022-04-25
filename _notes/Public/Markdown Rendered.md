@@ -1,6 +1,6 @@
 ---
 title : Markdown Rendered
-notetype : feed
+notetype : book
 date : 01-02-2021
 ---
  
