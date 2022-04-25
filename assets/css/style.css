@@ -7,7 +7,6 @@ layout: Stylesheet
 
 html, html[data-theme="light"] {
     --bg-main: #FFFFFF;
-    --bg-sub: #FAFAFC;
     --color-bis: #363636;
     --text-main: #18181C;
     --text-sub: #5D5D67;

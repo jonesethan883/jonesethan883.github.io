@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "ce9c793b58639360",
+    "type": "split",
+    "children": [
+      {
+        "id": "47f36daacc6dd0e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_books/Public/Moby Dick.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "423db19d95d09687",
+    "type": "split",
+    "children": [
+      {
+        "id": "434d89c20805910d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1aae3545c59d94e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c69b348624117cfd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b729cdbc322dae8",
+    "type": "split",
+    "children": [
+      {
+        "id": "37d98701fa3adf29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2ee6208155ac0f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_books/Public/Moby Dick.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "47f36daacc6dd0e2",
+  "lastOpenFiles": [
+    "_books/Public/Moby Dick.md",
+    "_notes/Public/Welcome to the garden.md",
+    "pages/books.md",
+    "pages/posts.md",
+    "pages/notes.md",
+    "pages/index.md"
+  ]
+}
