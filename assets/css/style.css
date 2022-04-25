@@ -5,33 +5,45 @@ layout: Stylesheet
 @import "/assets/css/highlight.css";
 /* Containers: Body, Container, Box, Main, Header, Content */ 
 
-:root {
-    --main-hue: 0;
-    --primary-bg-color: hsl(var(--main-hue), 0%, 100%);
-    --secondary-bg-color: hsl(var(--main-hue), 0%, 96.9%);
-    --ternary-bg-color: hsl(var(--main-hue), 0%, 91.4%);
-    --quaternary-bg-color: hsl(var(--main-hue), 0%, 93%);
-    --quinary-bg-color: hsl(var(--main-hue), 100%, 100%);
+html, html[data-theme="light"] {
+    --bg-main: #FFFFFF;
+    --bg-sub: #FAFAFC;
+    --color-bis: #363636;
+    --text-main: #18181C;
+    --text-sub: #5D5D67;
+    --link: #2380ED;
+    --border: #E5E5E5;
+}
 
-    --primary-border-color: hsl(var(--main-hue), 0%, 96.9%);
-    --secondary-border-color: hsl(var(--main-hue), 0%, 91.4%);
-    --ternary-border-color: hsl(var(--main-hue), 0%, 87.5%);
+html[data-theme="dark"] {
+    --bg-main: #18181C;
+    --bg-sub: #262626;
+    --color-bis: #E6E6E6;
+    --text-main: #FAFAFC;
+    --text-sub: #FFFFFF;
+    --link: #6D9EFF;
+    --border: #353535;
+}
 
-    --primary-box-shadow-color: hsl(var(--main-hue), 0%, 86.7%);
-    --secondary-box-shadow-color: hsl(var(--main-hue), 0%, 81.2%);
 
-    --primary-text-color: hsl(var(--main-hue), 0%, 33.3%);
-    --secondary-text-color: hsl(var(--main-hue), 0%, 53.3%);
-    --tertiary-text-color: hsl(var(--main-hue), 0%, 43.4%);
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+        --bg-main: #18181C;
+        --bg-sub: #262626;
+        --text-main: #FAFAFC;
+        --text-sub: #FFFFFF;
+        --link: #6D9EFF;
+        --border: #353535;
+    }
 
-    --horizontal-rule-color: rgb(228, 227, 226);
-    --anchor-text-color: hsl(210, 52.8%, 51.0%);
-    --anchor-link-color: hsl(205, 12%, 70%);
-    --search-placeholder-color: hsl(var(--main-hue), 0%, 60.0%);
-    --searchbox-shadow-color:  hsl(204, 63.0%, 78.8%);
-    --heading-font-family: Georgia, serif;
-    --primary-font-family: sans-serif;
-    --secondary-font-family: sans-serif;
+    html[data-theme="light"] {
+	    --bg-main: #FFFFFF;
+        --bg-sub: #FAFAFC;
+        --text-main: #18181C;
+        --text-sub: #5D5D67;
+        --link: #2380ED;
+        --border: #E5E5E5;
+  } 
 }
 
 
@@ -63,7 +75,7 @@ body {
     border-left: 1px solid var(--primary-border-color);
     border-right: 1px solid var(--primary-border-color);
     border-bottom: 1px solid var(--primary-border-color);
-    width: 60%;
+    width: 30%;
     position: absolute;
     top: 0px;
 }
@@ -75,58 +87,141 @@ header {
 
 main {
     min-height: 300px;
-    margin-left: 20px;
-    padding-right: 10px;
 }
 
+.buttons.for-back-home:not(:last-child) {
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+.navbar-item.navbar-dark-mode__mobile {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .buttons.for-back-home:not(:last-child) {
+        margin-left: 2rem;
+    } 
+}
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
+
+/* Titles using major third
+.title.is-1, .is-size-1 {
+    font-size: $size-1; //39.06px
+    font-weight: $weight-semibold;
+}
+.title.is-2, .is-size-2 {
+    font-size: $size-2; //31.25px
+    font-weight: $weight-semibold;
+}
+.title.is-3, .is-size-3 {
+    font-size: $size-3; //25.00px
+    font-weight: $weight-semibold;
+}
+.title.is-4, .is-size-4 {
+    font-size: $size-4; //20.00px
+    font-weight: $weight-semibold;
+}
+.title.is-5, .is-size-5 {
+    font-size: $size-5; //20.00px
+    font-weight: normal;
+}
+.title.is-6, .is-size-6 {
+    font-size: $size-6; //16px
+    font-weight: $weight-semibold;
+}
+.is-para {
+    font-size: $size-6; //16px
+    font-weight: normal;
+}
+.is-para-small, .is-size-7 {
+    font-size: $size-7; //12.80px
+    font-weight: normal;
+}
+.is-title-uppercase {
+    font-size: $size-7; //12.80px
+    font-weight: $weight-semibold;
+    text-transform: uppercase;
+    color: $text-sub;
+    margin-bottom: 8px;
+    letter-spacing: 0.2em;
+}
+*/
+
+/* Minor third with base font 14px */
 h1 {
-    font-size: 27px;
+    font-size: 2.074rem;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.728rem;
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 16.6px;
+    font-size: 1.44rem;
+    font-weight: 600;
 }
 
 h4 {
-    font-size: 15.5px;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 h5 {
-    font-size: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 h6 {
-    font-size: 13px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-h1, h2 {
-  color: var(--primary-text-color);
-  font-family:  var(--heading-font-family);
-  font-weight: normal;
+
+/* Major third with base font 16px */
+@media screen and (min-width: 769px), print {
+    html {
+        font-size: 16px !important; 
+    }
+    h1 {
+        font-size: 2.441rem;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 1.953rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 1.563rem;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    h6 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
 }
 
-h2 {
-  padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--secondary-border-color);
-}
-
-h3, h4, h5, h6 {
-  color: var(--primary-text-color);
-  font-family:  var(--primary-font-family);
-  font-weight: bold;
-}  
-
-a, p, ul, li, ol, table, span, blockquote {
-    color: var(--primary-text-color);
-    font-family:   var(--secondary-font-family);
-    font-size: 15px;  /* Let's set the font-size to something old-man friendly */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p a,
@@ -169,7 +264,6 @@ img {
 
 code {
     font-family: Consolas, 'Courier New', Courier, monospace;
-    font-family: Consolas, 'Courier New', Courier, monospace;
     display: inline-block;
     overflow: auto !important;
     white-space: pre-line !important;       
@@ -183,18 +277,16 @@ code {
 
 .regular-sans code {
     padding: 20px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
     border-radius: 5px;
     border: none;
-    font-family: var(--secondary-font-family) !important;
 }
 
 .serif code {
     padding: 20px;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
     border-radius: 5px;
     border: none;
-    font-family: 'EB Garamond', Georgia, serif !important;
 }
 
 
@@ -207,10 +299,10 @@ pre code {
     padding: 15px 15px  15px 15px;
     vertical-align:middle;
     width: 90%;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
     border: 1px solid var(--secondary-border-color);
     border-radius: 5px;
-    color: var(--primary-text-color);
+    color: var(--text-main);
 }
 
 
@@ -244,7 +336,7 @@ table {
 }
 
 th, td {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     padding: 8px;
     text-align: left;
     font-size: 12px;
@@ -268,11 +360,11 @@ tr {
 }
 
 thead tr:nth-child(odd) {
-    background-color: var(--secondary-bg-color); 
+    background-color: var(--bg-sub); 
 }
 
 tbody tr:nth-child(even) {
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
 }
 
 hr {
@@ -294,14 +386,14 @@ hr {
 }
 
 .site-heading-rtl > .main-page-heading {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     font-family:  var(--primary-font-family);
     font-weight: 600;
     margin-right: 20px;
 }
 
 .site-heading-rtl > .main-page-tagline {
-    color: var(--secondary-text-color);
+    color: var(--text-sub);
     font-family:  var(--primary-font-family);
     font-size: 0.7rem;
     font-weight: 600;
@@ -311,7 +403,7 @@ hr {
 
 
 .site-heading-rtl > .main-page-subheading {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     font-family:  var(--primary-font-family);
     font-weight: 600;
     font-size: 17.3px !important;
@@ -333,14 +425,14 @@ hr {
 }
 
 .site-heading-ltr > .main-page-heading {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     font-family:  var(--primary-font-family);
     font-weight: 600;
     margin-left: 20px;
 }
 
 .site-heading-ltr > .main-page-tagline {
-    color: var(--secondary-text-color);
+    color: var(--text-sub);
     font-family:  var(--primary-font-family);
     font-size: 0.7rem;
     font-weight: 600;
@@ -350,7 +442,7 @@ hr {
 
 
 .site-heading-ltr > .main-page-subheading {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     font-family:  var(--primary-font-family);
     font-weight: 600;
     font-size: 17.3px !important;
@@ -370,7 +462,7 @@ hr {
 }
 
 .avatar-link {    
-    background-color: var(--primary-bg-color);
+    background-color: var(--bg-main);
     border-radius: 50%;
     display: inline-block !important;
     float: left;
@@ -382,7 +474,7 @@ hr {
 }
 
 .avatar-img {
-    border: 2px solid var(--primary-bg-color);
+    border: 2px solid var(--bg-main);
     border-radius: 50%;
     box-sizing: border-box;
     height: 85px;
@@ -399,7 +491,7 @@ hr {
 
 .userboard {
    clear: both;
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
     width: 100%;
 }
 
@@ -416,7 +508,7 @@ hr {
 
 .username:hover {
     text-decoration: underline;
-    color: var(--primary-text-color);
+    color: var(--text-main);
 }
 
 .userdesc {
@@ -424,30 +516,40 @@ hr {
     margin-top: -13px;
 }
 
-.bio {
+.userdesc p:nth-child(1) {
     font-size: 14.5px;
 }
 
-.alt_link {
-    margin-top: -12px;
-    font-size: 13px !important;
-    display: flex;
-    flex-direction: row;
-}
-
-.alt_link a {
-    text-decoration: none;
-    padding-left: 3px;
-    color: var(--anchor-text-color);
-}
-
-.social {
+.userdesc p:nth-child(2) {
     margin-top: -9px;
     font-size: 13px !important;
 }
 
+.link-to-notes {
+    padding-left: 20px;
+    margin-top: -12px;
+    padding-bottom: 8px;
+}
+
+.link-to-notes a {
+    color: var(--link);
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    font-size: 13px;
+    margin-left: -3px;
+}
+
+.link-to-notes a:hover {
+    text-decoration: underline;
+}
+
+.link-to-notes a, .link-to-notes svg {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .anchor-link {
-    stroke: var(--anchor-link-color) !important;
+    stroke: var(--link) !important;
 }
 
 .main-site-subheader {
@@ -481,7 +583,7 @@ hr {
     margin-top: 7px;
     align-self: center;
     justify-self: center;
-    stroke: var(--primary-text-color);
+    stroke: var(--text-main);
 }
 
 .menu-item-text {
@@ -490,7 +592,7 @@ hr {
     font-weight: 600;
     font-size: 0.7rem;
     font-family: var(--primary-font-family);
-    color: var(--primary-text-color); 
+    color: var(--text-main); 
 }
 
 .stale-link {
@@ -515,10 +617,12 @@ hr {
 }
 
 #markdown-toc {
-    border: 1px solid #aaa;
     padding: 1.5em;
     list-style: decimal;
     display: inline-block;
+    background: var(--bg-sub);
+    width: 100%;
+    margin: 0;
 }
 
 #markdown-toc a {
@@ -540,14 +644,14 @@ hr {
     height: 40px;
     border: 0px;
     font-family: var(--secondary-font-family) !important;
-    color: var(--primary-text-color);
+    color: var(--text-main);
     font-size: 18px;
     border-bottom: 1px solid var(--primary-border-color);
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
 }
 
 ::placeholder {
-    color: var(--search-placeholder-color);
+    color: var(--bg-sub);
     font-size: 18px;
     font-family:  var(--secondary-font-family) !important;
 }
@@ -556,7 +660,7 @@ hr {
     vertical-align: middle;
     margin-top: -2px;
     padding-left: 20px;
-    stroke: var(--secondary-text-color) !important;
+    stroke: var(--text-sub) !important;
     padding-top: 12.5px;
     z-index: 1;
 }
@@ -573,30 +677,30 @@ hr {
 .search-shortcut kbd:first-child, .search-shortcut kbd:nth-child(2) {
     vertical-align: middle;
     display: inline-block;
-    color: var(--secondary-text-color);
+    color: var(--text-sub);
     font-size: 1em; 
     border-radius: 0.2em;  
     padding: 0.1em 0.3em;
-    box-shadow:0 0px 8px var(--primary-box-shadow-color);
+    box-shadow:0 0px 8px var(--card-drop-shadow);
 }
   
 .searchbar input[type="text"]:focus {
     border-color: var(--primary-border-color);
-    box-shadow: 0 0 8px 0 var(--searchbox-shadow-color);
+    box-shadow: 0 0 8px 0 var(--sborder);
 }
   
 .searchbar input[type=text]:hover {
-    background-color: var(--quinary-bg-color);
+    background-color: var(--bg-sub);
 }
   
 .searchbar input[type=text]:active,
 .searchbar input[type=text]:focus {
-    background-color: var(--quinary-bg-color);
+    background-color: var(-sub);
     outline: none;
 } 
 
 .search_res:hover {
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
 }
 
 .search_res:hover > a {
@@ -604,13 +708,13 @@ hr {
 }
 
 .search-results { 
-    position: absolute; 
+    position: inherit; 
     left: 0; 
     display: none; 
     width: 100%; 
     max-height: 500px; 
     overflow-y: auto; 
-    background-color: #fff; 
+    background-color: var(--bg-main); 
     border-bottom-right-radius: 4px; 
     border-bottom-left-radius: 4px; 
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); ;
@@ -645,7 +749,7 @@ hr {
 
 .search-result:hover, 
 .search-result.active { 
-    background-color: var(--secondary-bg-color); 
+    background-color: var(--bg-sub); 
 }
 
 .search-result:hover > .search-result-title,
@@ -655,7 +759,7 @@ hr {
 
 .svg-doc {
     padding-right: 2px;
-    stroke: var(--secondary-text-color) !important;
+    stroke: var(--text-sub) !important;
 }
 
 .search-result:hover > .svg-doc,
@@ -705,7 +809,7 @@ hr {
 }
 
 .search-result-preview span {
-    color: var(--tertiary-text-color) !important; 
+    color: var(--text-sub) !important; 
 }
 
 .search-result-preview + .search-result-preview { 
@@ -722,7 +826,7 @@ hr {
     padding-bottom: 0.5rem; 
     padding-left: 0.75rem; 
     font-family: var(--primary-font-family) !important;
-    color: var(--primary-text-color) !important;
+    color: var(--text-main) !important;
 }
 
 
@@ -764,9 +868,9 @@ hr {
 }
 
 .back-icon {
-    background-color: var(--quinary-bg-color);
+    background-color: var(--bg-sub);
     fill: currentColor;
-    color: var(--primary-text-color);
+    color: var(--text-main);
     margin-top: 5px;
     padding-left: 5px; 
     fill: currentColor;
@@ -780,7 +884,7 @@ hr {
 }
 
 .back-p {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     text-decoration: none;
     cursor: pointer;
     font-weight: 600;
@@ -795,7 +899,7 @@ hr {
 }
 
 .feed-title-excerpt-block:hover {
-    background-color: var(--secondary-bg-color);
+    background-color: var(--bg-sub);
 }
 
 .srccode {
@@ -808,7 +912,7 @@ hr {
 }
 
 .feed-title {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     margin-left: 20px;
     margin-right: 50px;
     font-size: 16.5px;
@@ -817,7 +921,7 @@ hr {
 }
 
 .feed-excerpt{
-    color: var(--primary-text-color);
+    color: var(--text-main);
     margin-top: -12px;
     margin-left: 20px !important;
     margin-right: 30px;
@@ -837,8 +941,8 @@ hr {
 }
 
 .tag {
-    color: var(--primary-text-color);
-    background: var(--secondary-bg-color);
+    color: var(--text-main);
+    background: var(--bg-sub);
     text-decoration: none;
     display: inline-block;
     padding: 0 12px;
@@ -851,11 +955,11 @@ hr {
 }
 
 .content {
-  line-height: 20px;
+  
 }
 
 .content a {
-    color: var(--anchor-text-color);
+    color: var(--link);
     text-decoration: none;
 }
 
@@ -869,8 +973,8 @@ hr {
     clear: right;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-right: -45%;
-    width: 40%;
+    margin-right: -50%;
+    width: 30%;
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: baseline;
@@ -884,8 +988,8 @@ hr {
     clear: left;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-left: -45%;
-    width: 40%;
+    margin-left: -50%;
+    width: 30%;
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: baseline;
@@ -975,15 +1079,15 @@ li .mn-right {
     margin-left:20px;
     transform:translate(0, -50%);
     padding:10px 20px;
-    color: var(--primary-text-color);
-    background-color:var(--primary-bg-color);
+    color: var(--text-main);
+    background-color:var(--bg-main);
     font-weight:normal;
     font-size:13px;
     border-radius:8px;
     position:absolute;
     z-index:99999999;
     box-sizing:border-box;
-    box-shadow:0 1px 8px var(--primary-box-shadow-color);
+    box-shadow:0 1px 8px var(--card-drop-shadow);
     display:none;
 }
 
@@ -1009,8 +1113,8 @@ li .mn-right {
     left:0;
     top:50%;
     transform:translate(50%,-50%) rotate(-45deg);
-    background-color: var(--primary-bg-color);
-    box-shadow:0 1px 8px var(--primary-box-shadow-color);
+    background-color: var(--bg-main);
+    box-shadow:0 1px 8px var(--card-drop-shadow);
 }
 
 .right .tooltip-title {
@@ -1033,7 +1137,7 @@ input.margin-toggle {
 }
 
 .srs-svg {
-    stroke: var(--primary-text-color);
+    stroke: var(--text-main);
 }
 
 label.sidenote-number {
@@ -1066,24 +1170,22 @@ label.srs-toggle {
     position: relative; 
     padding: 12px;
     width: 240px;
-    background-color: var(--primary-bg-color);
+    background-color: var(--bg-main);
     border: solid 1px var(--ternary-border-color);
     border-radius: 5px;
-    box-shadow: 1px 1px 15px var(--secondary-box-shadow-color);
+    box-shadow: 1px 1px 15px var(--card-drop-shadow);
     word-wrap:break-word;
 }
 
 .related {
-    background-color:var(--secondary-bg-color);
     width: 100%;
     min-height: 100px;
     border-radius: 10px;
 }
 
 .related h4 {
-    color: var(--secondary-text-color);
-    padding-top: 20px;
-    padding-left: 20px
+    color: var(--text-sub);
+    padding-left: 10px
 }
 
 .related-wrapper {
@@ -1094,40 +1196,31 @@ label.srs-toggle {
 }
 
 .related-group {
-    margin-left: 10px;
-    width: 90% !important;
+    width: 95% !important;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
+    background-color: var(--bg-sub);
+    padding: 16px;
 }
 
 .related-group:hover {
-    background-color: var(--quaternary-bg-color) !important;
+        box-shadow: 0px 12px 32px rgba(27, 25, 36, 0.12);
 }
 
 .related-group a {
     text-decoration: none;
+    color:var(--link)
 }
 
 .related-title {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 12px !important;
-    font-family:  var(--primary-font-family) !important;
-    font-weight: 600;
 }
 
-.related-excerpt:before {
-    content: "\"";
-}
-
-
-.related-excerpt:after {
-    content: "\"";
-}
 
 .related-excerpt {
-    color: var(--primary-text-color) !important;
+    color: var(--text-main) !important;
     padding-left: 10px;
     padding-right: 5px;
     font-size: 12px !important;
@@ -1141,7 +1234,7 @@ label.srs-toggle {
     background-color: transparent;
     background-repeat: no-repeat;
     cursor: pointer;
-    color: var(--primary-text-color);
+    color: var(--text-main);
     outline: none;
     border: none;
     overflow: hidden;
@@ -1154,10 +1247,10 @@ label.srs-toggle {
     z-index: 10;
     padding: 12px 0;
     width: 240px;
-    background-color: var(--primary-bg-color);
+    background-color: var(--bg-main);
     border: solid 1px var(--ternary-border-color);
     border-radius: 5px;
-    box-shadow: 1px 1px 15px var(--secondary-box-shadow-color);
+    box-shadow: 1px 1px 15px var(--card-drop-shadow);
 }
 
 .context-menu-res li {
@@ -1172,8 +1265,8 @@ label.srs-toggle {
 }
 
 .context-menu-res li:hover {
-    color: var(--primary-text-color);
-    background-color: var(--secondary-bg-color);
+    color: var(--text-main);
+    background-color: var(--bg-sub);
 }
 
 .context-menu-res li:hover >  .context-menu-res__link {
@@ -1181,7 +1274,7 @@ label.srs-toggle {
 }
 
 .context-menu-res__link {
-    color: var(--primary-text-color);
+    color: var(--text-main);
     text-decoration: none;
 }
 
@@ -1194,10 +1287,10 @@ label.srs-toggle {
     z-index: 10;
     padding: 12px 0;
     width: 177px;
-    background-color: var(--primary-bg-color);
+    background-color: var(--bg-main);
     border: solid 1px var(--ternary-border-color);
     border-radius: 5px;
-    box-shadow: 1px 1px 15px var(--secondary-box-shadow-color);
+    box-shadow: 1px 1px 15px var(--card-drop-shadow);
   }
   
 .context-menu--active {
@@ -1223,15 +1316,15 @@ label.srs-toggle {
 .context-menu__link {
   display: block;
   padding: 4px 12px;
-  color: var(--primary-text-color);
+  color: var(--text-main);
   text-decoration: none;
   font-size: 12px;
   font-family: var(--primary-font-family) !important;
 }
 
 .context-menu__link:hover {
-  color: var(--primary-text-color);
-  background-color: var(--secondary-bg-color);
+  color: var(--text-main);
+  background-color: var(--bg-sub);
 }
 
 .popup {
@@ -1246,6 +1339,7 @@ label.srs-toggle {
 #copyright-notice {
     font-size: 0.7rem;
     font-weight: 700;
+    text-align: center;
 }
 
 #disqus_thread {
@@ -1256,7 +1350,7 @@ label.srs-toggle {
 @media screen and (max-width: 1200px){
     .sn-right,
     .mn-right {
-        margin-right: -35%;
+        margin-right: -50%;
         width: 30%;
     }
     
@@ -1291,7 +1385,7 @@ label.srs-toggle {
     }
 
 .related-group {
-    background-color:  var(--quaternary-bg-color) !important;
+    background-color:  var(--bg-sub) !important;
     margin-left: 10px;
     width: 90% !important;
     height: 100%;
@@ -1311,15 +1405,15 @@ label.srs-toggle {
         left:50%;
         transform:translate(-50%, 0);
         padding:10px 20px;
-        color:var(--primary-text-color);
-        background-color:var(--primary-bg-color);
+        color:var(--text-main);
+        background-color:var(--bg-main);
         font-weight:normal;
         font-size:13px;
         border-radius:8px;
         position:absolute;
         z-index:99999999;
         box-sizing:border-box;
-        box-shadow:0 1px 8px var(--primary-box-shadow-color);
+        box-shadow:0 1px 8px var(--card-drop-shadow);
         display:none;
     }
     
@@ -1344,8 +1438,8 @@ label.srs-toggle {
         height:12px;
         left:50%;
         transform:translate(-50%,50%) rotate(45deg);
-        background-color: var(--primary-bg-color);
-        box-shadow:0 1px 8px var(--primary-box-shadow-color);
+        background-color: var(--bg-main);
+        box-shadow:0 1px 8px var(--card-drop-shadow);
     }
     
     .bottom .tooltip-title {
@@ -1439,4 +1533,3 @@ label.margin-toggle:not(.sidenote-number) {
   grid-template-columns: repeat(1, 1fr);
 }
 }
-
