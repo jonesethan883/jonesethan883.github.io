@@ -172,8 +172,8 @@
 
             {%- if page.permalink == "/books" -%}
                 <div class="column is-half">
+                    {%- include BooklistContent.html -%}
                     {%- include Booklist.html -%}
-                    {%- include Feed.html -%}
                     {%- include Footer.html -%}
                 </div>
             {%- endif -%}
