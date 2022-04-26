@@ -102,8 +102,6 @@ disqus:
 
 #RSS feed settings
 feed:
-  title: Purpose of a System
-  url: https://purposeofasystem.com/notes/
   collections:
     - notes
 
