@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/edit.md",
+            "file": "_posts/articles.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/edit.md",
+                "file": "_posts/articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "47f36daacc6dd0e2",
   "lastOpenFiles": [
-    "_posts/edit.md",
     "_posts/articles.md",
-    "pages/books.md",
+    "_posts/edit.md",
     "_notes/Public/Satin Island.md",
+    "pages/books.md",
     "_notes/Public/Hidden Note.md",
     "_notes/Public/No One Is Talking About This.md",
     "_notes/Public/Test.md",

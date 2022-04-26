@@ -1,5 +1,6 @@
 ---
-title: articles
+title : articles
+notetype : post
 ---
 Blogs, articles and videos on the internet that I find interesting. Paywalls are marked like so<sup>$</sup>. 
 
