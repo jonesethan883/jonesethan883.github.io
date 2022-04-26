@@ -2,6 +2,7 @@
 title : Features
 notetype : feed
 date : 26-04-2022
+usemathjax: true
 ---
 
 This is mainly a test of the RSS feed
@@ -12,7 +13,7 @@ Aenean egestas, odio quis dictum pharetra, felis risus suscipit dui, at ultrices
 
 Sed erat ex, porta ac malesuada non, interdum sit amet arcu. Nunc magna nibh, dapibus id nunc quis, pharetra dignissim ante. Donec vitae ante gravida, mattis justo vitae, viverra eros. Nunc consectetur iaculis risus, nec tempus nisl dignissim nec. Pellentesque bibendum luctus leo, non dignissim velit dapibus commodo. Praesent at faucibus lorem. Etiam commodo nisl sapien, vel iaculis mauris molestie sit amet. Morbi nunc tortor, congue quis diam nec, pharetra faucibus risus. Proin et diam a turpis condimentum molestie. Phasellus feugiat bibendum placerat. Proin pretium et dolor non luctus. Maecenas volutpat cursus orci non aliquet. Vivamus iaculis bibendum odio, id egestas nisl. Donec varius a lectus non pharetra.[[Sed elit metus, egestas nec enim et, elementum convallis odio. Curabitur vel elit quis elit lobortis elementum.::rmn]]
 
-Cras a urna at ipsum tempor ultrices. Praesent tellus massa, mattis vel consectetur id, efficitur ac libero. Duis ante lorem, vestibulum ac imperdiet semper, vulputate vitae nunc. Integer euismod aliquam ornare. Praesent sapien felis, maximus sed turpis vitae, vulputate porta lectus. Pellentesque congue ornare diam nec cursus. In in suscipit mi. Vestibulum scelerisque, arcu efficitur tincidunt pharetra, erat nisi maximus ipsum, a porta leo ipsum ut lacus. Aliquam eget magna dignissim mauris mattis rhoncus non ac est. Praesent non quam dignissim, mollis ante ut, ullamcorper ligula. Vestibulum lacus purus, bibendum placerat leo non, iaculis placerat ante.[[Proin convallis lobortis augue at hendrerit. Sed et bibendum tortor. Nunc hendrerit vel justo ac lacinia. Sed odio massa, semper eu pellentesque et, *sodales* nec massa.:lmn]] Mauris ut pellentesque massa. Donec egestas turpis et sem tincidunt aliquet. Nulla aliquet neque risus, cursus lobortis nisl aliquam id. Pellentesque ut posuere ipsum, ut accumsan urna. Praesent ac eros libero.
+Cras a urna at ipsum tempor ultrices. Praesent tellus massa, mattis vel consectetur id, efficitur ac libero. Duis ante lorem, vestibulum ac imperdiet semper, vulputate vitae nunc. Integer euismod aliquam ornare. Praesent sapien felis, maximus sed turpis vitae, vulputate porta lectus. Pellentesque congue ornare diam nec cursus. In in suscipit mi. Vestibulum scelerisque, arcu efficitur tincidunt pharetra, erat nisi maximus ipsum, a porta leo ipsum ut lacus. Aliquam eget magna dignissim mauris mattis rhoncus non ac est. Praesent non quam dignissim, mollis ante ut, ullamcorper ligula. Vestibulum lacus purus, bibendum placerat leo non, iaculis placerat ante.[[Proin convallis lobortis augue at hendrerit. Sed et bibendum tortor. Nunc hendrerit vel justo ac lacinia. Sed odio massa, semper eu pellentesque et, *sodales* nec massa.::lmn]] Mauris ut pellentesque massa. Donec egestas turpis et sem tincidunt aliquet. Nulla aliquet neque risus, cursus lobortis nisl aliquam id. Pellentesque ut posuere ipsum, ut accumsan urna. Praesent ac eros libero.
 
 
 $$ \varphi=\frac{\sqrt{\sigma}}{\xi}=\sum_{i=0}^{\hat\xi}{\sigma_i} $$
