@@ -100,6 +100,13 @@ disqus:
     ## Disabled for NotesGarden Theme. 
     shortname: PurposeOf
 
+#RSS feed settings
+feed:
+  title: Purpose of a System
+  url: https://purposeofasystem.com/notes/
+  collections:
+    - notes
+
 markdown: kramdown
 
 kramdown:
