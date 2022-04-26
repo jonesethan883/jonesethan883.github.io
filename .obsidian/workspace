@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "47f36daacc6dd0e2",
+        "id": "fdba85067737f117",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,9 +87,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "47f36daacc6dd0e2",
+  "active": "fdba85067737f117",
   "lastOpenFiles": [
     "_posts/2022-04-25-articles.md",
+    "Now More Than Ever.md",
     "_notes/Public/Satin Island.md",
     "_notes/Public/No One Is Talking About This.md",
     "_posts/2022-04-25-edit.md",
@@ -97,7 +98,6 @@
     "Untitled/construction.png",
     "assets/img/favicon.png",
     "assets/img/hound.jpg",
-    "assets/img/screenshot-mixed.png",
-    "assets/img/sun.svg"
+    "assets/img/screenshot-mixed.png"
   ]
 }
