@@ -2703,6 +2703,7 @@ a.navbar-item,
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
+  max-width: 9.5in;
   padding: 0.75rem; }
   .columns.is-mobile > .column.is-narrow {
     flex: none; }
@@ -3934,3 +3935,27 @@ a.tag:hover {
   .homeblock h1 a:hover {
     color : var(--link);
   }
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+
+
