@@ -1,7 +1,5 @@
 ---
 title: articles
-notetype : unfeed
-date : 25-04-2022
 ---
 Blogs, articles and videos on the internet that I find interesting. Paywalls are marked like so<sup>$</sup>. 
 
