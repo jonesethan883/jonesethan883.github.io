@@ -115,6 +115,11 @@
                         <h1>{{page.title}}</h1>
                         {%- include Content.html -%}
                         {%- include Backlinks.html -%}
+
+			{%- if site.preferences.comments.enabled -%}
+				{% include remarkboxComments.html -%}
+			{%- endif -%}
+
                         </div>
                         {%- include Footer.html -%}
                     </main>

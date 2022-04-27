@@ -53,6 +53,8 @@ preferences:
     enabled: true
   pagepreview:
     enabled: true
+  comments:
+    enabled: true
   highlighting:
     enabled: true
     color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
@@ -98,7 +100,7 @@ disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     ## Disabled for NotesGarden Theme. 
-    shortname: PurposeOf
+    shortname:
 
 #RSS feed settings
 feed:
