@@ -94,7 +94,10 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /notes/:title      
+      permalink: /notes/:title
+    books:
+      output: true
+      permalink: /books:title      
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
