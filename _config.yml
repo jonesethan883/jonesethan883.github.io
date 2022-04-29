@@ -97,8 +97,7 @@ collections:
       permalink: /notes/:title
     books:
       output: true
-      permalink: /books/:title      
-
+      permalink: /books:title      
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
