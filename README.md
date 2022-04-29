@@ -1,4 +1,4 @@
-A fork of [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) being used to run a personal website at www.purposeofasystem.com
+A fork of [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) being used to run a personal website at purposeofasystem.com
 
 
 ## License
