@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/The Founder.md",
+            "file": "_notes/WIP/The Founder.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/The Founder.md",
+                "file": "_notes/WIP/The Founder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "fdba85067737f117",
   "lastOpenFiles": [
-    "_notes/Public/The Founder.md",
-    "_notes/Public/Features.md",
-    "_notes/Public/No One Is Talking About This.md",
+    "_notes/WIP/The Founder.md",
+    "Untitled.md",
     "_notes/Public/Satin Island.md",
-    "_posts/2022-04-25-articles.md",
-    "Now More Than Ever.md",
+    "_notes/Public/No One Is Talking About This.md",
+    "_notes/Private/Russian Roulette.md",
+    "_notes/Private/Don't get eaten.md",
     "_posts/2022-04-25-edit.md",
-    "README.md",
-    "Untitled/construction.png",
-    "assets/img/favicon.png"
+    "_posts/2022-04-25-articles.md",
+    "assets/pdf/russian-roulette.pdf",
+    "_notes/Public/Features.md"
   ]
 }
