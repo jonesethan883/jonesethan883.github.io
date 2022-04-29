@@ -1,6 +1,6 @@
 ---
 title: The Founder
-notetype : feed
+notetype : unfeed
 date : 26-04-2022
 ---
 WIP
