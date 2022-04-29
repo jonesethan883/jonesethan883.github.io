@@ -15,9 +15,9 @@ I had pondered this idea in the interim. He was, I decided, incorrect. Empirical
 
 He bobbed his head forward and down as he said this, raising his eyebrows slightly. I wondered for a second if I should respond but he continued.
 
-"The problem most organizations face is that they treat equity as an external imposition on a process that measures equally. The difference here is to internalize the equity- remove the contradiction by using the equity as a tool."
+"Equity and employment are contradictions you understand. The problem we're facing is that we have equity as an external imposition on a process that measures equally. The difference here is to internalize the equity- remove the contradiction by using the equity as a tool."
 
-"If you'll excuse my radical candor, I'm not sure I'm picking up what you're putting down. Can you hit me with an example?"
+"If you'll excuse my radical honesty, I'm not sure I'm picking up what you're putting down. Can you hit me with an example?"
 
 "No ish, I appreciate the realness. Imagine if you will a core-competency powered strategically aligned initiative emphasizing real growth by gordian-knot style bypassing of a wicked problem vs a thoroughly *non*-aligned vanity initiative kept alive by top-down fiat. What is the *equal* and the *equitable* process for evaluation towards relative resource allocation?"
 
@@ -32,4 +32,3 @@ He bobbed his head forward and down as he said this, raising his eyebrows slight
 "Of course"
 
 "Then let me ask you this. What is the precondition for meta-pareto efficacy? How do we scale our mechanism for reaping long-tail gains from 20% to 4% to 0.8%? Traditional answers are to increase the size of the pyramid, which is necessary but not sufficient, or to attempt to filter out the productive 20%. Both those methods involve sifting through bad results looking for good ones. Our process is a a sponge that soaks up the bad. The error is in thinking of high investment in poor initiatives as an inevitable failure of a discrimination algorithm operating in a high risk/reward uncertain environment, rather than making the effort to deliberately *seek out* and *grow* failure as a way of creating a clearer delineation between stagnant and breakout elements within your existing pool."
-
