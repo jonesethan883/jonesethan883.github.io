@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fdba85067737f117",
+        "id": "71c139fd20b62e01",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fdba85067737f117",
+  "active": "71c139fd20b62e01",
   "lastOpenFiles": [
     "_notes/Public/The Founder.md",
-    "_notes/Public/Features.md",
-    "_notes/Public/No One Is Talking About This.md",
+    "_notes/WIP/The Founder.md",
+    "Untitled.md",
     "_notes/Public/Satin Island.md",
-    "_posts/2022-04-25-articles.md",
-    "Now More Than Ever.md",
+    "_notes/Public/No One Is Talking About This.md",
+    "_notes/Private/Russian Roulette.md",
+    "_notes/Private/Don't get eaten.md",
     "_posts/2022-04-25-edit.md",
-    "README.md",
-    "Untitled/construction.png",
-    "assets/img/favicon.png"
+    "_posts/2022-04-25-articles.md",
+    "assets/pdf/russian-roulette.pdf"
   ]
 }

@@ -2,5 +2,7 @@
   "legacyEditor": false,
   "livePreview": true,
   "attachmentFolderPath": "assets/img",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "showLineNumber": true
 }
