@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/The Founder.md",
+            "file": "_posts/2022-04-25-articles.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/The Founder.md",
+                "file": "_posts/2022-04-25-articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "71c139fd20b62e01",
   "lastOpenFiles": [
+    "_posts/2022-04-25-articles.md",
     "_notes/Public/The Founder.md",
     "_notes/WIP/The Founder.md",
     "Untitled.md",
@@ -97,7 +98,6 @@
     "_notes/Private/Russian Roulette.md",
     "_notes/Private/Don't get eaten.md",
     "_posts/2022-04-25-edit.md",
-    "_posts/2022-04-25-articles.md",
     "assets/pdf/russian-roulette.pdf"
   ]
 }
