@@ -5,9 +5,12 @@ layout: Stylesheet
 @import "/assets/css/highlight.css";
 /* Containers: Body, Container, Box, Main, Header, Content */ 
 
+
+
+
 html, html[data-theme="light"] {
-    --bg-main: #d9d9d9;
-    --bg-sub: #dbdbdb
+    --bg-main: #FFFFFF;
+    --bg-sub: #FAFAFCb
     --color-bis: #363636;
     --text-main: #18181C;
     --text-sub: #5D5D67;
@@ -15,9 +18,9 @@ html, html[data-theme="light"] {
     --border: #E5E5E5;
 }
 
-html, html[data-theme="light"] {
-    --bg-main: #FFFFFF;
-    --bg-sub: #FAFAFC;
+html, html[data-theme="dark"] {
+    --bg-main: #18181C;
+    --bg-sub: #262626;
     --color-bis: #363636;
     --text-main: #18181C;
     --text-sub: #5D5D67;
