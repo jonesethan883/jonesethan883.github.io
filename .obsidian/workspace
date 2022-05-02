@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "71c139fd20b62e01",
+        "id": "52ecf149dd45381c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-04-25-articles.md",
+            "file": "_notes/Discussion/ideas.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-04-25-articles.md",
+                "file": "_notes/Discussion/ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "71c139fd20b62e01",
+  "active": "52ecf149dd45381c",
   "lastOpenFiles": [
+    "_notes/Discussion/ideas.md",
     "_posts/2022-04-25-articles.md",
+    "_notes/Discussion/themes.md",
+    "_notes/Discussion/conversation.md",
     "_notes/Public/The Founder.md",
     "_notes/WIP/The Founder.md",
-    "Untitled.md",
     "_notes/Public/Satin Island.md",
     "_notes/Public/No One Is Talking About This.md",
     "_notes/Private/Russian Roulette.md",
-    "_notes/Private/Don't get eaten.md",
-    "_posts/2022-04-25-edit.md",
-    "assets/pdf/russian-roulette.pdf"
+    "_notes/Private/Don't get eaten.md"
   ]
 }
