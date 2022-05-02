@@ -1,0 +1,3 @@
+- People take absurd actions framed in the language of a reasonable decision making process, but clearly lacking some inuition / missing the forest for the trees. Like how the IRS requiring you to report illegal income. 
+- Contrasts of the journalistic style with other inappropriate styles. "Point Counterpoint" style opinion piece with buttoned up paleocon vs insane street preacher. A quote from a press statement written in blank verse
+- Lots of weird or experimental typesetting stuff.
