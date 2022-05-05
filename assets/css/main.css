@@ -3958,4 +3958,16 @@ details[open] summary {
 }
 
 
-
+title-block, aside {
+    display: block;
+    float: left;
+    position: absolute;
+    margin-left: 0;
+    left: 2.5rem;
+    width: calc(2.5rem * 3);
+    text-align: right;
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 1rem;
+    font-variant-numeric: normal;
+}
