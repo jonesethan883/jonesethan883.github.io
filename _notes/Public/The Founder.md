@@ -1,9 +1,8 @@
 ---
 title: The Founder
-notetype : unfeed
+notetype : feed
 date : 26-04-2022
 ---
-WIP
 
 It was early morning, in the Spring. I had to get up at five to make my appointment with The Founder. He had insisted that we meet early. On the phone I asked him if this was because he got up early every day but he laughed and said no. He explained that he was scheduling the meeting in a way that would cause mutual frustration. "The problem" he said "with most innovators is that they are self-defeating. They imagine the wonderful things that they or others could accomplish if only they were free of this or that inconvenience and they do their greatest work in an attempt to fix it. But the more sufficient they find things the less innovative they can be. But to be clear this is not a change mediated by the real level of satisfaction in their lives. It is a fetishistic process. That is to say a general dissatisfaction is transformed into an *individual* problem, and the solution to that individual problem is transformed into a general satisfaction, but only for those who chose this particular problem as the fetish-object of their frustration. This process cannot be stopped but it can be slowed. In order to continue innovation it is necessary to maintain a highly general degree of dissatisfaction which can be harnessed for, but not fixed by, practical solutions."
 
@@ -32,3 +31,7 @@ He bobbed his head forward and down as he said this, raising his eyebrows slight
 "Of course"
 
 "Then let me ask you this. What is the precondition for meta-pareto efficacy? How do we scale our mechanism for reaping long-tail gains from 20% to 4% to 0.8%? Traditional answers are to increase the size of the pyramid, which is necessary but not sufficient, or to attempt to filter out the productive 20%. Both those methods involve sifting through bad results looking for good ones. Our process is a a sponge that soaks up the bad. The error is in thinking of high investment in poor initiatives as an inevitable failure of a discrimination algorithm operating in a high risk/reward uncertain environment, rather than making the effort to deliberately *seek out* and *grow* failure as a way of creating a clearer delineation between stagnant and breakout elements within your existing pool."
+
+"You're talking about evolutionary pressure?"
+
+"Not even, I'm talking about.. about *ontological* pressure. About an incompatibility of *being*. A prion disease structurally collapsing everything that can connect to it."

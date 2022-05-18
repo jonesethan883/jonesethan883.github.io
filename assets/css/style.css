@@ -1003,7 +1003,7 @@ hr {
     font-size: 14px;
     margin-right: -80%;
     width: 70%;
-    margin-top: 0;
+    margin-top: 2em;
     margin-bottom: 0;
     vertical-align: baseline;
     position: relative; 
@@ -1024,7 +1024,7 @@ hr {
     font-size: 14px;
     margin-left: -466px;
     width: 379px;
-    margin-top: 0;
+    margin-top: 2em;
     margin-bottom: 0;
     vertical-align: baseline;
     position: relative; 
