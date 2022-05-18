@@ -7,7 +7,7 @@ layout: Stylesheet
 
 html, html[data-theme="light"] {
     --bg-main: #FaFaFa;
-    --bg-sub: #ECECEC;
+    --bg-sub: #FaFaFa;
     --color-bis: #363636;
     --text-main: #18181C;
     --text-sub: #5D5D67;
@@ -17,9 +17,9 @@ html, html[data-theme="light"] {
 
 html[data-theme="dark"] {
     --bg-main: #18181C;
-    --bg-sub: #262626;
+    --bg-sub: #18181C;
     --color-bis: #E6E6E6;
-    --text-main: #FAFAFC;
+    --text-main: #b5b5b5;
     --text-sub: #FFFFFF;
     --link: #6D9EFF;
     --border: #353535;
@@ -92,6 +92,22 @@ header {
 main {
     min-height: 300px;
 }
+
+mark {
+    color:#962800;
+    background: var(--bg-main);
+}
+
+.navbar-elements {
+    font-family: "Bree Serif", sans-serif;
+    font-size: 24px;
+}
+
+.navbar-elements > a {
+    margin-right: 1em;
+}
+
+
 
 .buttons.for-back-home:not(:last-child) {
     margin-left: 0;
@@ -200,7 +216,7 @@ h6 {
     }
 
     h2 {
-        margin-top: 1em;
+        margin-top: 2em;
         margin-bottom: 0em;
         font-size: 1.25rem;
         font-weight: 600;
@@ -212,7 +228,7 @@ h6 {
     }
 
     h4 {
-        font-size: 1.25rem;
+        font-size: .8rem;
         font-weight: 600;
         margin-top: 0em;
     }
@@ -229,7 +245,8 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Oswald", sans-serif;
+    font-family: "Bree Serif", sans-serif;
+    
 }
 
 p a,
@@ -631,7 +648,9 @@ hr {
     display: inline-block;
     background: var(--bg-sub);
     width: 100%;
-    margin: 0;
+    margin-top: 2em;
+    border-style: solid;
+    border-color: var(--text-main);
 }
 
 #markdown-toc a {
@@ -982,13 +1001,19 @@ hr {
     clear: right;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-right: -50%;
-    width: 30%;
+    margin-right: -80%;
+    width: 70%;
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: baseline;
     position: relative; 
-    padding-bottom: 5px;
+    padding:10px;
+    border-radius:3px;
+    text-indent: 0;
+    background-color: var(--bg-main);
+    text-align:center;
+    border-style: solid;
+    border-color: var(--text-main);
 }
 
 .sn-left,
@@ -997,13 +1022,17 @@ hr {
     clear: left;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-left: -50%;
-    width: 30%;
+    margin-left: -80%;
+    width: 70%;
     margin-top: 0;
     margin-bottom: 0;
     vertical-align: baseline;
     position: relative; 
-    padding-bottom: 5px;
+    padding: 10px;
+    background-color: var(--bg-main);
+    text-align: center;
+    border-style: solid;
+    border-color: var(--text-main);
 }
 
 .sidenote-number {
@@ -1102,6 +1131,7 @@ li .mn-right {
 
 .tooltip:hover .right {
     display:block;
+    border-style:solid;
 }
 
 .tooltip .right i {
@@ -1211,6 +1241,8 @@ label.srs-toggle {
     cursor: pointer;
     background-color: var(--bg-sub);
     padding: 16px;
+    border-style: solid;
+    border-color: var(--text-main);
 }
 
 .related-group:hover {

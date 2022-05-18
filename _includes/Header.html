@@ -28,52 +28,14 @@
 * click on the post titles on the home page.
 *
 {%- endcomment -%}
-
-<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
-        <div class="buttons">
-          <a class="button is-text">
-            <span class="icon is-small">
-              <img src="../assets/img/sun.svg" id="theme-toggle-img--mobile">
-            </span>
-          </a>
+<span class="mn-left">
+    <nav>
+        <div class="navbar-elements">
+            <a href="/index.html">Home</a>
+            <a href="/notes">Feed</a>
+            <a href="/books">Books</a>
+            <a href="/posts/articles">Linkdump</a>
+            <a href="/posts">Posts</a>
         </div>
-      </div>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a href="../index.html" class="navbar-item">
-          Home
-        </a>
-        <a href="../notes"  class="navbar-item">
-          Feed
-        </a>
-        <a href="../books"  class="navbar-item">
-          Books
-        </a>
-        <a href="../posts/articles"  class="navbar-item">
-          Link Repository
-        </a>
-      </div>
-      <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-text">
-              <span class="icon is-small">
-                <img src="../assets/img/sun.svg" id="theme-toggle-img">
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <script src="/assets/js/Hamburger.js"></script>
-
+    </nav>
+</span>

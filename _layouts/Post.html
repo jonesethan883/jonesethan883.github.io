@@ -40,7 +40,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,700;1,300;1,700&family=Oswald:wght@600&family=Spectral&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,700;1,300;1,700&family=Bree+Serif&display=swap" rel="stylesheet">
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
     <meta content="article" property="og:type">
@@ -70,7 +70,6 @@
 </head>
 
 <body>
-    {%- include Header.html -%}
     <section class="section">
         <div class="columns is-centered">
             <!--- CASE 1 : Homepage-->
@@ -97,7 +96,7 @@
                 <div class="column is-three-fifths">
                     <main>
                         <div class="note-page-section">
-                            <div class="buttons for-back-home">
+                         <!--   <div class="buttons for-back-home">
                                 {%- if site.preferences.homepage.enabled -%}
                                 <a class="button is-text button__page-back" onclick="window.history.back();">
                                 {%- else -%}
@@ -112,7 +111,8 @@
                                         </svg>
                                     </span>
                                 </a>
-                            </div>
+                            </div>-->
+                        {%- include Header.html -%}
                         <h1>{{page.title}}</h1>
                         {%- include Content.html -%}
                         {%- include Backlinks.html -%}
@@ -155,8 +155,9 @@
             <!--- CASE 4 :  Blog Listing page -->   
 
             {%- if page.permalink == "/posts" -%}
-                <div class="column is-half">
+                <div class="column is-three-fifths">
                     <h1>{{page.title}}</h1>
+                    {%- include Header.html -%}
                     <div class="block">
                         {% for item in site.posts %}
                             <div class="block note-cards">
