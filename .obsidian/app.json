@@ -3,6 +3,6 @@
   "livePreview": true,
   "attachmentFolderPath": "assets/img",
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "showLineNumber": true
 }
