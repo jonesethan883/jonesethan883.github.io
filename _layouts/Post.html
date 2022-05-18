@@ -155,10 +155,10 @@
             <!--- CASE 4 :  Blog Listing page -->   
 
             {%- if page.permalink == "/posts" -%}
-                <div class="column is-three-fifths">
-                    <h1>{{page.title}}</h1>
+                <div class="column is-half">
                     {%- include Header.html -%}
                     <div class="block">
+                    <h1>{{page.title}}</h1>
                         {% for item in site.posts %}
                             <div class="block note-cards">
                                 <div class="box-feed" data-url="{{site.url}}{{item.url}}">
@@ -182,6 +182,7 @@
 
             {%- if page.permalink == "/notes" -%}
                 <div class="column is-half">
+                    {%- include Header.html -%}
                     {%- include FeedContent.html -%}
                     {%- include Feed.html -%}
                     {%- include Footer.html -%}             
@@ -192,6 +193,7 @@
 
             {%- if page.permalink == "/books" -%}
                 <div class="column is-half">
+                    {%- include Header.html -%}
                     {%- include BooklistContent.html -%}
                     {%- include Booklist.html -%}
                     {%- include Footer.html -%}
