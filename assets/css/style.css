@@ -101,12 +101,20 @@ mark {
 .navbar-elements {
     font-family: "Bree Serif", sans-serif;
     font-size: 24px;
+    color: var(--text-main);
 }
 
 .navbar-elements > a {
     margin-right: 1em;
 }
 
+button {
+    font-family: "Bree Serif", sans-serif;
+    font-size: 24px;
+    color: var(--text-main);
+    background:none;
+    border-style:none;
+}
 
 
 .buttons.for-back-home:not(:last-child) {

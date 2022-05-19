@@ -117,7 +117,7 @@
                         {%- include Content.html -%}
                         {%- include Backlinks.html -%}
 
-			{%- if site.preferences.comments.enabled -%}
+			{%- if site.preferences.comments.enabled and page.content-type != "post" -%}
             <br>
             <br>
             <hr>
