@@ -4,7 +4,7 @@ notetype: feed
 date: 18-5-2022
 ---
 
-I was talking to a friend recently about what could substitute me. Like I get information from a certain collection of sources, I process it in a certain way, and then I output something. But most of what I have to say that's somewhat valuable to other people has already been said, whether in the stuff that I read or by someone else who's read it. And while the exact way I turn the things I learn into ideas is idiosyncratic, is it *that* idiosyncratic? If there are differences that make what I have to say unique, are the differences important?
+I was talking to a friend recently about what could substitute me. Like I get information from a certain collection of sources, I interpret it in a certain way, and then I say things based on what I hear. But most of what I have to say that's somewhat valuable to other people has already been said, whether in the stuff that I read or by someone else who's read it. And while the exact way I turn the things I learn into ideas is idiosyncratic, is it *that* idiosyncratic? If there are differences that make what I have to say unique, are the differences important?
 
 So why reinvent the wheel? If a given paragraph I write has already been written in a better way by someone expressing the same idea, why not just copy over their paragraph with attribution?
 
