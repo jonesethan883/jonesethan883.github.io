@@ -8,31 +8,32 @@ I want to complain about textbook design. As a disclaimer I don't have any speci
 
 Essentially I think that textbooks are often over-structured. They use many different design and organization elements to achieve many different goals, and end up overloading the text and making it difficult to read in a linear way.
 
-Non-linear organization might not seem like a downside at first. If anything it sounds great, revolutionary, downright *2.0*. You can imagine some visionary giving you a pitch: "Human knowledge isn't linear, so why are our textbooks? We need to enable hyperlinked multi-depth interactive customizable knowledge that understands and adapts to the individual learner." And I don't even disagree! I want all those things, but there are caveats.
+But what's the problem with non-linearity? There's a common pitch that I've heard applied to things like [mind maps](https://en.wikipedia.org/wiki/Mind_map), [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [personal wikis](https://en.wikipedia.org/wiki/Personal_wiki), and other projects that question the way we structure information. They generally come with a graph like this.
 
-There's a common pitch that I've heard applied to things like [mind maps](https://en.wikipedia.org/wiki/Mind_map), [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), [personal wikis](https://en.wikipedia.org/wiki/Personal_wiki), and other projects that question the way we structure information. They generally come with a graph like this.
-
-<img src="/assets/img/linearvnonlinear3.svg">
+![non linear v linear](/assets/img/linearvnonlinear3.svg)
 
 and a bit of copy implying that this method is more in line with how humans naturally think. In a way I'm sure that's true, but what it misses is scale. Information needs to be situated in a large enough linear narrative flow to actually be comprehensible, and only after it's read and understood do you start to connect it to other things like in the graph. Wikipedia is nonlinear in that there's no particular order you have to read the articles in, but the articles themselves are mostly linear.
 
 You can also talk about the structure within articles. Wikipedia makes heavy use of sections and subheadings, even for relatively short articles. These sections tend to be treated atomically; you can read the section on classification hurricanes without reading the preceding section on intensity as long as you have some background of the subject. Contrast this with Encyclopedia Brittanica which will usually have longer more narrative articles covering broader subjects. Let's call the average size of a flow of narrative exposition that a document treats as atomic its flow length.
 
-<img src="/assets/img/flowlength.svg">
+![Diagram showing flow length](/assets/img/Spivak1.jpg)
 
 There are good applications for either. For technical writing and reference documents it would be annoying to read through paragraphs of exposition searching for the one piece of information you need so structure helps them to be skimmable. But I think a longer flow length is useful for first contact. When a new idea is being explained the more context you have the better and long flow lengths help you feel absorbed in the information. 
 
 A lot of things can disrupt this narrative flow. Here are some images from a very well regarded textbook, Michael Spivak's *Calculus*[[ISBN: 0-914098-89-6::rsn]]. You don't need to read them, just skim the way it's organized.
 <br>
-<img src="/assets/img/Spivak1.jpg">
+![spivak 1](/assets/img/Spivak1.jpg)
+
 [[While they aren't prose the equations fit relatively naturally into the narrative if you know how to read them, so they don't disrupt the narrative flow.::lmn]]
 <br>
-<img src="/assets/img/spivakpic.png">
+![spivak2](/assets/img/spivakpic.png)
 <br>
 
 and an image from a writing textbook I dislike[[*Writing Guide with Handbook*, published by OpenStax, ISBN: 978-1-951693-47-3::rsn]]. Again just skim:
 <br>
-<img src="/assets/img/otherpic.png">[[I'm trying to focus on just the form, but the content itself also seems crazy to me. Does anyone analyzing a text do it by applying a rote list of questions? Thinking to themselves "Let me use Approach 1", going down the list. "First I identify and summarize the text, then I explain the form and organization". Why try to teach people to do something you would never do, in a way that's less useful and less interesting than an actual explanation?::lmn]]
+![otherpic](/assets/img/otherpic.png)
+
+[[I'm trying to focus on just the form, but the content itself also seems crazy to me. Does anyone analyzing a text do it by applying a rote list of questions? Thinking to themselves "Let me use Approach 1", going down the list. "First I identify and summarize the text, then I explain the form and organization". Why try to teach people to do something you would never do, in a way that's less useful and less interesting than an actual explanation?::lmn]]
 <br>
 What's going on here? There's a center aligned table which describes a metaphorical equation where you add **what you're doing** to **why you're doing it**. Then it substitutes  this equation using bold text to indicate each value and regular text to indicate the substitution. Horizontal rules are used to separate the general equation and then each term of the substituted equation. Two sentences of text. A heading tells us that this is the first approach we'll use to explore possible areas of analysis for fiction when drafting. Two subheadings to separate the ideas "Identify and Summarize the Text" and "Explain the form of Organization". This is a decontextualized screenshot, so you'll have to take my word for it that none of this is remotely necessary.
 

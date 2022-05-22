@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "52ecf149dd45381c",
+        "id": "f37542a7df202b3e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Discussion/ideas.md",
+            "file": "_notes/Public/Ugly Textbooks.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Discussion/ideas.md",
+                "file": "_notes/Public/Ugly Textbooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "52ecf149dd45381c",
+  "active": "f37542a7df202b3e",
   "lastOpenFiles": [
-    "_notes/Discussion/ideas.md",
+    "_notes/Public/Ugly Textbooks.md",
+    "assets/img/Spivak1.jpg.md",
+    "_notes/Public/Xanadu.md",
+    "_site/assets/img/spivakpic.png",
+    "_site/assets/img/Spivak1.jpg.jpg",
+    "_site/assets/img/otherpic.png.png",
+    "assets/img/Spivak1.jpg",
+    "_posts/2022-05-16-about.md",
     "_posts/2022-04-25-articles.md",
-    "_notes/Discussion/themes.md",
-    "_notes/Discussion/conversation.md",
-    "_notes/Public/The Founder.md",
-    "_notes/WIP/The Founder.md",
-    "_notes/Public/Satin Island.md",
-    "_notes/Public/No One Is Talking About This.md",
-    "_notes/Private/Russian Roulette.md",
-    "_notes/Private/Don't get eaten.md"
+    "pages/posts.md"
   ]
 }

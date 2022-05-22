@@ -4,5 +4,6 @@
   "attachmentFolderPath": "assets/img",
   "alwaysUpdateLinks": true,
   "vimMode": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheck": true
 }
