@@ -16,7 +16,7 @@ and a bit of copy implying that this method is more in line with how humans natu
 
 You can also talk about the structure within articles. Wikipedia makes heavy use of sections and subheadings, even for relatively short articles. These sections tend to be treated atomically; you can read the section on classification hurricanes without reading the preceding section on intensity as long as you have some background of the subject. Contrast this with Encyclopedia Brittanica which will usually have longer more narrative articles covering broader subjects. Let's call the average size of a flow of narrative exposition that a document treats as atomic its flow length.
 
-![Diagram showing flow length](/assets/img/Spivak1.jpg)
+![Diagram showing flow length](/assets/img/linearvnonlinear3.jpg)
 
 There are good applications for either. For technical writing and reference documents it would be annoying to read through paragraphs of exposition searching for the one piece of information you need so structure helps them to be skimmable. But I think a longer flow length is useful for first contact. When a new idea is being explained the more context you have the better and long flow lengths help you feel absorbed in the information. 
 
