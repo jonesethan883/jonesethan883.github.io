@@ -1,4 +1,8 @@
 {
-  "theme": "obsidian",
-  "baseFontSize": 16
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "invertImages"
+  ],
+  "cssTheme": "Red Graphite"
 }

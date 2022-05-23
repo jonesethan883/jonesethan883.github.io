@@ -278,7 +278,8 @@ hr {
   background-color: var(--text-main);
   border: none;
   display: block;
-  height: 2px;
+  height: var(--border-width);
+  color: var(--border-color);
   margin: 0.5rem 0; }
 
 img {
@@ -289,7 +290,6 @@ img {
   margin-top:1em;
   margin-bottom:1.5em;
   max-width: 100%; }
-
 
 /* Makes SVGs or image names containing the string "totalinvert_" invertible */
 img[src$=".svg"],img[src*="b&w"] {
@@ -343,7 +343,7 @@ table th {
     text-align: left; }
 
 table th {
-  color: var(--border); }
+  color: var(--border-color); }
 
 .is-clearfix::after {
   clear: both;
@@ -1001,12 +1001,11 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .box-feed {
   background-color: var(--bg-main);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   box-shadow: none;
   color: var(--text-main);
   display: block;
-  border-style: solid;
-  border-color: var(--text-main);
+  border: var(--border-style) var(--border-width) var(--border-color);
   padding: 1rem; }
 
 a.box-feed:hover, a.box-feed:focus {
@@ -1017,7 +1016,7 @@ a.box-feed:active {
 
 .button {
   background-color: var(--bg-main);
-  border-color: var(--border);
+  border-color: var(--border-color);
   border-width: 1px;
   color: var(--color-bis);
   cursor: pointer;
@@ -1082,7 +1081,7 @@ a.box-feed:active {
   .button[disabled],
   fieldset[disabled] .button {
     background-color: var(--bg-main);
-    border-color: var(--border);
+    border-color: var(--border-color);
     box-shadow: none;
     opacity: 0.5; }
 
@@ -1181,7 +1180,7 @@ a.box-feed:active {
 
 .content blockquote {
   background-color: var(--bg-sub);
-  border-left: 5px solid var(--border);
+  border-left: 5px solid var(--border-color);
   padding: 1.25em 1.5em;
   border-left: 3px solid var(--text-main);
 }
@@ -1240,7 +1239,7 @@ a.box-feed:active {
   width: 100%; }
   .content table td,
   .content table th {
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-color);
     border-width: 0 0 1px;
     padding: 0.5em 0.75em;
     vertical-align: top; }
@@ -1375,7 +1374,7 @@ a.box-feed:active {
   color: var(--color-bis); }
   .table td,
   .table th {
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-color);
     border-width: 0 0 1px;
     padding: 0.5em 0.75em;
     vertical-align: top; }
@@ -1748,8 +1747,9 @@ a.tag:hover {
 
 .input, .textarea, .select select {
   background-color: var(--bg-main);
-  border-color: var(--text-main);
-  border-width: 3px;
+  border-color: var(--border-color);
+  border-style: var(--border-style);
+  border-width: var(--border-color);
   border-radius: 8px;
   color: var(--text-main); }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
@@ -1763,7 +1763,7 @@ a.tag:hover {
   .input:hover, .textarea:hover, .select select:hover, .is-hovered.input, .is-hovered.textarea, .select select.is-hovered {
     border-color: #b5b5b5; }
   .input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active {
-    border-color: var(--border);
+    border-color: var(--border-color);
 }
   .input[disabled], .textarea[disabled], .select select[disabled],
   fieldset[disabled] .input,
@@ -2631,7 +2631,7 @@ a.navbar-item,
   .navbar-item.has-dropdown-up .navbar-link::after {
     transform: rotate(135deg) translate(0.25em, -0.25em); }
   .navbar-item.has-dropdown-up .navbar-dropdown {
-    border-bottom: 2px solid var(--border);
+    border-bottom: 2px solid var(--border-color);
     border-radius: 8px 8px 0 0;
     border-top: none;
     bottom: 100%;
@@ -2656,7 +2656,7 @@ a.navbar-item,
     background-color: var(--bg-main);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top: 2px solid var(--border);
+    border-top: 2px solid var(--border-color);
     box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
     display: none;
     font-size: 0.875rem;
@@ -2740,8 +2740,9 @@ a.navbar-item,
   flex-shrink: 1;
   max-width: 9.5in;
   padding: .75rem; 
-  border-style: solid;
-  border-color: var(--text-main);
+  border-style: var(--border-style);
+  border-color: var(--border-color);
+  border-width: var(--border-width);
 }
   .columns.is-mobile > .column.is-narrow {
     flex: none; }
@@ -3911,7 +3912,7 @@ a.navbar-item,
 .section.is-note .column.is-primary-content,
 .note-page-section {
   background: var(--bg-main);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   position: relative;
   padding: 0.75rem;
   margin: 0 -0.75rem;
@@ -3946,7 +3947,7 @@ a.tag {
   transition: all 0.2s; }
 
 a.tag:hover {
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-color);
   text-decoration: none;
   color: var(--link); }
 
@@ -3981,19 +3982,35 @@ details {
     padding: .5em .5em 0;
 }
 
+
 summary {
-    font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
 }
 
+
 details[open] {
     padding: .5em;
+}
+details:not([open]){
+    flex-flow: column;
+}
+details.mn-left:not([open]) summary::after, details.mn-right:not([opem]) summary::after{
+    font-weight: bold;
+    content: " Expand ➤";
+    flex-flow: column;
+    padding-top: calc(.5em + 10px);
+    border-top: var(--border-style) var(--border-width) var(--border-color);
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    margin-top: 1em;
 }
 
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
+
 }
 
 

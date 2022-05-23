@@ -22,7 +22,7 @@ There are good applications for either. For technical writing and reference docu
 
 A lot of things can disrupt this narrative flow. Here are some images from a very well regarded textbook, Michael Spivak's *Calculus*[[ISBN: 0-914098-89-6::rsn]]. You don't need to read them, just skim the way it's organized.
 <br>
-![spivak 1](/assets/img/Spivak1.jpg?b&w)
+![spivak 1](/assets/img/Spivak1b&w.jpg)
 
 [[While they aren't prose the equations fit relatively naturally into the narrative if you know how to read them, so they don't disrupt the narrative flow.::lmn]]
 <br>

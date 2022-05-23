@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/Ugly Textbooks.md",
+            "file": "_notes/Public/Lipsum.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 548.0107650756836
+    "width": 421
   },
   "right": {
     "id": "0b729cdbc322dae8",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Ugly Textbooks.md",
+                "file": "_notes/Public/Lipsum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "c2f9b7dc7d3fe268",
   "lastOpenFiles": [
-    "_notes/Public/Ugly Textbooks.md",
-    "_notes/Public/The Founder.md",
-    "assets/img/Ugly Textbooks 2022-05-21 18.06.36.excalidraw.md",
     "_notes/Public/Lipsum.md",
-    "assets/img/flowlength.svg",
-    "_notes/Public/Satin Island.md",
-    "_notes/Public/No One Is Talking About This.md",
+    "_notes/Public/Ugly Textbooks.md",
     "_notes/Public/Xanadu.md",
-    "assets/img/Spivak1.jpg",
-    "assets/img/spivakpicb&w.png"
+    "_notes/Public/The Founder.md",
+    "_notes/Public/No One Is Talking About This.md",
+    "_notes/Public/Satin Island.md",
+    "_notes/Public/Cosmopolis.md",
+    "assets/img/Spivak1b&w.jpg",
+    "assets/img/Ugly Textbooks 2022-05-21 18.06.36.excalidraw.md",
+    "assets/img/flowlength.svg"
   ]
 }

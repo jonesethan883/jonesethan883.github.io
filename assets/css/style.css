@@ -12,7 +12,10 @@ html, html[data-theme="light"] {
     --text-main: #18181C;
     --text-sub: #5D5D67;
     --link: #1c4970;
-    --border: #E5E5E5;
+    --border-color: #363636;
+    --border-style: solid;
+    --border-width: 1px;
+    --border-radius: 8px;
     --stale-link-color: #FFFFC4;
     --img-invert: 7%;
     --img-sepia: 8%;
@@ -31,7 +34,10 @@ html[data-theme="dark"] {
     --text-main: #b5b5b5;
     --text-sub: #FFFFFF;
     --link: #6D9EFF;
-    --border: #353535;
+    --border-color: #FaFaFa;
+    --border-style: solid;
+    --border-width: 3px;
+    --border-radius: 8px;
     --stale-link-color: #440e48;
     --img-invert: 64%;
     --img-sepia: 69%;
@@ -46,35 +52,47 @@ html[data-theme="dark"] {
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-        --bg-main: #18181C;
-        --bg-sub: #262626;
-        --text-main: #FAFAFC;
-        --text-sub: #FFFFFF;
-        --link: #6D9EFF;
-        --border: #353535;
-    --stale-link-color: #FFFFC4;
-    --img-invert: 0%;
-    --img-sepia: 9%;
+    --bg-main: #18181C;
+    --bg-sub: #18181C;
+    --color-bis: #E6E6E6;
+    --text-main: #b5b5b5;
+    --text-sub: #FFFFFF;
+    --link: #6D9EFF;
+    --border-color: #FaFaFa;
+    --border-style: solid;
+    --border-width: 3px;
+    --border-radius: 8px;
+    --stale-link-color: #440e48;
+    --img-invert: 64%;
+    --img-sepia: 69%;
     --img-saturate: 0%;
-    --img-hue-rotate: 0deg;
-    --img-brightness: 0%;
-    --img-contrast: 0%;
+    --img-hue-rotate: 156deg;
+    --img-brightness: 100%;
+    --img-contrast: 91%;
+    --img-regularInvertLevel: 100%;
+    --img-mix-blend-mode: screen;
     }
 
     html[data-theme="light"] {
-	    --bg-main: #FFFFFF;
-        --bg-sub: #FAFAFC;
-        --text-main: #18181C;
-        --text-sub: #5D5D67;
-        --link: #2380ED;
-        --border: #E5E5E5;
-    --stale-link-color: #440e48;
-    --img-invert: 4%;
-    --img-sepia: 2%;
-    --img-saturate: 5561%;
-    --img-hue-rotate: 202deg;
-    --img-brightness: 96%;
-    --img-contrast: 88%;
+    --bg-main: #FaFaFa;
+    --bg-sub: #FaFaFa;
+    --color-bis: #363636;
+    --text-main: #18181C;
+    --text-sub: #5D5D67;
+    --link: #1c4970;
+    --border-color: #E5E5E5;
+    --border-style: solid;
+    --border-width: 3px;
+    --border-radius: 8px;
+    --stale-link-color: #FFFFC4;
+    --img-invert: 7%;
+    --img-sepia: 8%;
+    --img-saturate: 1009%;
+    --img-hue-rotate: 201deg;
+    --img-brightness: 92%;
+    --img-contrast: 92%;
+    --img-regularInvertLevel: 0%;
+    --img-mix-blend-mode: multiply;
   } 
 }
 
@@ -385,6 +403,7 @@ blockquote {
 
 summary {
   display: flex;
+  flex-direction: column;
   align-items: center;
   outline: none;
 }
@@ -692,8 +711,7 @@ hr {
     background: var(--bg-sub);
     width: 100%;
     margin-top: 2em;
-    border-style: solid;
-    border-color: var(--text-main);
+    border: var(--border-style) var(--border-width) var(--border-color);
 }
 
 #markdown-toc a {
@@ -1058,8 +1076,7 @@ hr {
     padding: 10px;
     background-color: var(--bg-main);
     text-align: center;
-    border-style: solid;
-    border-color: var(--text-main);
+    border: var(--border-style) var(--border-width) var(--border-color);
 }
 
 
@@ -1081,8 +1098,7 @@ hr {
     text-indent: 0;
     background-color: var(--bg-main);
     text-align:center;
-    border-style: solid;
-    border-color: var(--text-main);
+    border: var(--border-style) var(--border-width) var(--border-color);
 }
 
 .sn-left,
@@ -1104,8 +1120,8 @@ hr {
     padding: 10px;
     background-color: var(--bg-main);
     text-align: center;
-    border-style: solid;
-    border-color: var(--text-main);
+    border: var(--border-style) var(--border-width) var(--border-color);
+
 }
 
 .sidenote-number {
@@ -1204,7 +1220,7 @@ li .mn-right {
 
 .tooltip:hover .right {
     display:block;
-    border-style:solid;
+    border: var(--border-style) var(--border-width) var(--border-color);
 }
 
 .tooltip .right i {
@@ -1314,8 +1330,7 @@ label.srs-toggle {
     cursor: pointer;
     background-color: var(--bg-sub);
     padding: 16px;
-    border-style: solid;
-    border-color: var(--text-main);
+    border: var(--border-style) var(--border-width) var(--border-color);
 }
 
 .related-group:hover {

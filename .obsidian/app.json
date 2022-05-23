@@ -1,10 +1,12 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "attachmentFolderPath": "assets/img",
   "alwaysUpdateLinks": false,
   "vimMode": false,
   "showLineNumber": true,
-  "spellcheck": true,
-  "showUnsupportedFiles": true
+  "spellcheck": false,
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true,
+  "readableLineLength": true
 }
