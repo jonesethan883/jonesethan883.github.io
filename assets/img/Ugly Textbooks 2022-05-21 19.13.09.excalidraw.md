@@ -1734,7 +1734,7 @@ New, Digital, Wearing jeans to work ^EVBn85Vr
 	],
 	"appState": {
 		"theme": "light",
-		"viewBackgroundColor": "#fafafa",
+		"viewBackgroundColor": "transparent",
 		"currentItemStrokeColor": "#495057",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",

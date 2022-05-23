@@ -156,8 +156,8 @@
 
             {%- if page.permalink == "/posts" -%}
                 <div class="column is-half">
-                    {%- include Header.html -%}
                     <div class="block">
+                    {%- include Header.html -%}
                     <h1>{{page.title}}</h1>
                         {% for item in site.posts %}
                             <div class="block note-cards">
@@ -182,10 +182,12 @@
 
             {%- if page.permalink == "/notes" -%}
                 <div class="column is-half">
+                    <div class="block">
                     {%- include Header.html -%}
                     {%- include FeedContent.html -%}
                     {%- include Feed.html -%}
                     {%- include Footer.html -%}             
+                    </div>
                 </div>
             {%- endif -%}
 
@@ -193,10 +195,12 @@
 
             {%- if page.permalink == "/books" -%}
                 <div class="column is-half">
+                    <div class="block">
                     {%- include Header.html -%}
                     {%- include BooklistContent.html -%}
                     {%- include Booklist.html -%}
                     {%- include Footer.html -%}
+                    </div>
                 </div>
             {%- endif -%}
 

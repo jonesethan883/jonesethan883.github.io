@@ -13,6 +13,15 @@ html, html[data-theme="light"] {
     --text-sub: #5D5D67;
     --link: #1c4970;
     --border: #E5E5E5;
+    --stale-link-color: #FFFFC4;
+    --img-invert: 7%;
+    --img-sepia: 8%;
+    --img-saturate: 1009%;
+    --img-hue-rotate: 201deg;
+    --img-brightness: 92%;
+    --img-contrast: 92%;
+    --img-regularInvertLevel: 0%;
+    --img-mix-blend-mode: multiply;
 }
 
 html[data-theme="dark"] {
@@ -23,6 +32,15 @@ html[data-theme="dark"] {
     --text-sub: #FFFFFF;
     --link: #6D9EFF;
     --border: #353535;
+    --stale-link-color: #440e48;
+    --img-invert: 64%;
+    --img-sepia: 69%;
+    --img-saturate: 0%;
+    --img-hue-rotate: 156deg;
+    --img-brightness: 100%;
+    --img-contrast: 91%;
+    --img-regularInvertLevel: 100%;
+    --img-mix-blend-mode: screen;
 }
 
 
@@ -34,6 +52,13 @@ html[data-theme="dark"] {
         --text-sub: #FFFFFF;
         --link: #6D9EFF;
         --border: #353535;
+    --stale-link-color: #FFFFC4;
+    --img-invert: 0%;
+    --img-sepia: 9%;
+    --img-saturate: 0%;
+    --img-hue-rotate: 0deg;
+    --img-brightness: 0%;
+    --img-contrast: 0%;
     }
 
     html[data-theme="light"] {
@@ -43,6 +68,13 @@ html[data-theme="dark"] {
         --text-sub: #5D5D67;
         --link: #2380ED;
         --border: #E5E5E5;
+    --stale-link-color: #440e48;
+    --img-invert: 4%;
+    --img-sepia: 2%;
+    --img-saturate: 5561%;
+    --img-hue-rotate: 202deg;
+    --img-brightness: 96%;
+    --img-contrast: 88%;
   } 
 }
 
@@ -105,7 +137,8 @@ mark {
 }
 
 .navbar-elements > a {
-    margin-right: 1em;
+    margin-right: .5em;
+    white-space: nowrap;
 }
 
 button {
@@ -293,6 +326,7 @@ b, strong {
 img {
     max-width: 100%;
     height: auto;
+    filter: unquote("invert(var(--image-invert)) sepia(var(img-sepia)) saturate(var(--img-saturate)) hue-rotate(var(--img-hue-rotate)) brightness(var(--img-brightness)) contrast(var(--img-contrast));");
 }
 
 
@@ -631,7 +665,7 @@ hr {
 }
 
 .stale-link {
-    background-color:#ffffc4;
+    background-color: var(--stale-link-color);
 }
 
 
@@ -1004,14 +1038,40 @@ hr {
     text-decoration: underline;
 }
 
+
+
+.side-navbar {
+    float: left;
+    clear: left;
+    font-family:  var(--secondary-font-family) !important;
+    font-size: 14px;
+    margin-left: unquote("mAx(cAlc(((100Vw - 100%)/-2) + 30px),-400px)");
+    width: unquote("cAlc(((100Vw - 100%)/2) - 50px)");
+    /* The unquote function causes the code in quotes to be parsed as CSS instead of being converted to SCSS, which is important 
+       here because you can't use the calc() and max() functions with different units in SCSS */
+    
+    max-width: 380px;
+    margin-top: 2em;
+    margin-bottom: 0;
+    vertical-align: baseline;
+    position: relative; 
+    padding: 10px;
+    background-color: var(--bg-main);
+    text-align: center;
+    border-style: solid;
+    border-color: var(--text-main);
+}
+
+
 .sn-right,
 .mn-right {
     float: right;
     clear: right;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-right: -80%;
-    width: 70%;
+    margin-right: unquote("mAx(Calc(((100Vw - 100%)/-2) + 15px),-425px)");
+    width: unquote("Calc(((100Vw - 100%)/2) - 30px)");
+    max-width: 380px;
     margin-top: 2em;
     margin-bottom: 0;
     vertical-align: baseline;
@@ -1031,8 +1091,12 @@ hr {
     clear: left;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-left: -466px;
-    width: 379px;
+    margin-left: unquote("mAx(cAlc(((100Vw - 100%)/-2) + 15px),-425px)");
+    width: unquote("cAlc(((100Vw - 100%)/2) - 30px)");
+    /* The unquote function causes the code in quotes to be parsed as CSS instead of being converted to SCSS, which is important 
+       here because you can't use the calc() and max() functions with different units in SCSS */
+    
+    max-width: 380px;
     margin-top: 2em;
     margin-bottom: 0;
     vertical-align: baseline;
@@ -1397,6 +1461,7 @@ label.srs-toggle {
     margin-right: 10px;
 }
 
+/*
 @media screen and (max-width: 1200px){
     .sn-right,
     .mn-right {
@@ -1443,6 +1508,8 @@ label.srs-toggle {
     cursor: pointer;
 }
 }
+
+*/
 
 @media screen and (max-width: 1024px) {
     .tooltip .right {
@@ -1525,7 +1592,6 @@ label.srs-toggle {
 }
 
 
-
 @media screen and (max-width: 800px){
 
 .box {
@@ -1545,13 +1611,26 @@ label.margin-toggle:not(.sidenote-number) {
     display: none; 
 }
 
+.side-navbar {
+    display: block;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    margin-bottom: 2em;
+    border-style: none;
+    border-bottom: solid;
+}
+.navbar-elements {
+    font-size: 20px;
+
+}
+
 .margin-toggle:checked + .sn-right,
 .margin-toggle:checked + .sn-left,
 .margin-toggle:checked + .mn-left,
 .margin-toggle:checked + .mn-right {
     display: block;
     float: left;
-    left: 1rem;
     clear: both;
     width: 95%;
     margin: 1rem 2.5%;
