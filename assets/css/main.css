@@ -262,7 +262,6 @@ table th {
 
 
 
-
 a.tag:hover {
   text-decoration: underline; }
 
@@ -396,10 +395,7 @@ a.box-feed:active {
       padding: 9rem 1.5rem; }
     .section.is-large {
       padding: 18rem 1.5rem; } }
-@media only screen and (max-width:600px) {
-
-
-
+@media only screen and (max-width:1000px) {
 .column{
         width: 100%;
     }
@@ -418,8 +414,10 @@ blockquote {
     margin:1rem;
 
 }
+}
 
 }
+
 .content ul {
   list-style: disc outside;
   margin-top: 1em; }
@@ -486,10 +484,11 @@ blockquote {
   margin-left: 0;
   margin-right: 0; }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 600px), print {
   .section.is-note .column.is-primary-content,
     .note-page-section {
-        padding: 3rem min(10%,8rem);}
+        padding: 0rem min(10%,8rem);}
+        padding-top: 1.75rem;
   .note-cards .content {
     width: 88%; }
     }
@@ -581,4 +580,7 @@ figcaption {
     font-style: italic;
     cursor: pointer;
 }
+
+
+
 

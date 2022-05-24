@@ -273,7 +273,7 @@ h6 {
 
 
 /* Major third with base font 16px */
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 600px), print {
     html {
         font-size: 20px !important; 
     }
@@ -425,6 +425,11 @@ cite {
 blockquote p {
     font-family: inherit;
     font-size: 15px;
+}
+
+*::selection {
+    background-color: var(--highlight-color);
+    color: var(--highlight-text-color);
 }
 
 table {
@@ -706,7 +711,7 @@ hr {
 
 #markdown-toc li {
     margin-left: 1rem;
-    list-style: decimal;
+    list-style: circle;
 }
 
 #markdown-toc li * {
@@ -1072,7 +1077,7 @@ hr {
     clear: left;
     font-family:  var(--secondary-font-family) !important;
     font-size: 14px;
-    margin-left: unquote("mAx(cAlc(((100Vw - 100%)/-2) + 30px),-400px)");
+    margin-left: unquote("mAx(cAlc(((100Vw - 100%)/-2) + 30px),-425px)");
     width: unquote("cAlc(((100Vw - 100%)/2) - 50px)");
     /* The unquote function causes the code in quotes to be parsed as CSS instead of being converted to SCSS, which is important 
        here because you can't use the calc() and max() functions with different units in SCSS */
@@ -1622,7 +1627,7 @@ label.srs-toggle {
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 
 .box {
     width: 80%;

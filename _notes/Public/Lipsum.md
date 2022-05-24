@@ -3,6 +3,7 @@ title : Lipsum
 subtitle : Test
 notetype : feed
 date : 16-05-2022
+mathjax : true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lectus eget metus sollicitudin tincidunt. Sed pharetra egestas augue, et suscipit libero congue in. Nulla vitae maximus lorem. Vivamus varius mi ut malesuada malesuada. Praesent ullamcorper id ipsum eu hendrerit. Donec dictum mattis gravida. Suspendisse commodo facilisis posuere. Aliquam leo ante, tempus eu consectetur id, ultricies vitae mi. Sed blandit velit sit amet viverra condimentum. Donec imperdiet sagittis lectus, dictum convallis mauris tristique sed. Praesent laoreet ornare orci, lobortis tincidunt odio pretium euismod. [[Lipsum2]]
