@@ -54,7 +54,7 @@ preferences:
   pagepreview:
     enabled: true
   comments:
-    enabled: true
+    enabled: false
   highlighting:
     enabled: true
     color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
