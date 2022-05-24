@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "72b38262db67c034",
+        "id": "533021016593fff4",
         "type": "leaf",
         "state": {
-          "type": "html",
+          "type": "markdown",
           "state": {
-            "file": "_includes/Header.html"
+            "file": "_posts/2022-05-16-about.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_includes/Header.html",
+                "file": "_posts/2022-05-16-about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "72b38262db67c034",
+  "active": "533021016593fff4",
   "lastOpenFiles": [
+    "_posts/2022-05-16-about.md",
+    "_config.yml",
     "_includes/Header.html",
-    "_includes/Homepage.html",
-    "_includes/Footer.html",
-    "_includes/text-expand.html",
-    "_posts/2022-04-25-articles.md",
-    "_notes/Public/Lipsum.md",
-    "_notes/Public/Lipsum2.md",
-    "assets/img/Lipsum.svg",
-    "assets/img/Lipsum .excalidraw.md",
-    "_notes/Public/Xanadu.md"
+    "_notes/Public/Nightcrawler.md",
+    "_notes/Public/Satin Island.md",
+    "_site/notes/Satin-Island.html",
+    "_layouts/Post.html",
+    "_layouts/Stylesheet.html",
+    "_includes/Booklist.html",
+    "pages/reviews.md"
   ]
 }

@@ -34,4 +34,4 @@ He bobbed his head forward and down as he said this, raising his eyebrows slight
 
 "You're talking about evolutionary pressure?"
 
-"Not even, I'm talking about.. about *ontological* pressure. About an incompatibility of *being*. A prion disease structurally collapsing everything that can connect to it."
+"I'm talking about *ontological* pressure. About an incompatibility of *being*. A prion disease structurally collapsing everything that can connect to it."

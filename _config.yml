@@ -40,7 +40,7 @@ copyright:
 #####################################################################
 preferences:
   search:
-    enabled: true
+    enabled: false
     shortcut_hint: 
         enabled: true
   wiki_style_link: # This property handles wiki style links '[['
@@ -94,7 +94,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /notes/:title      
+      permalink: /notes/:title
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
@@ -125,7 +125,7 @@ defaults:
       type: posts
     values:
       layout: Post
-      permalink: /posts/:title
+      permalink: /post/:title
       content-type: post
   - scope:
       path: ""

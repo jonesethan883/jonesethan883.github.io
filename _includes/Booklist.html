@@ -2,7 +2,7 @@
 
 <!-- search bar -->
 <div class="block">
-    <input class="input is-medium" type="text" placeholder="Search books.." id="search-input" autocomplete="off">
+    <input class="input is-medium" type="text" placeholder="Search reviews.." id="search-input" autocomplete="off">
     <div id="search-results" class="search-results"></div>
 </div>
 <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
@@ -11,7 +11,7 @@
 <!-- feed with filter-->
 {% assign note_items = site.notes | sort: "date" | reverse %}
 {% for note_items in note_items %}
-{%- if note_items.notetype == "book" -%}
+{%- if note_items.notetype == "reviews" -%}
 <div class="block note-cards">
     <div class="box-feed" data-url="{{site.url}}{{note_items.url}}">
         <a href="{{note_items.url}}" style="text-decoration: none;">
