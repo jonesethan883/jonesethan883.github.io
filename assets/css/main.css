@@ -239,6 +239,7 @@ hgroup,
 section {
   display: block; }
 
+
 body,
 button,
 input,
@@ -1171,8 +1172,6 @@ a.box-feed:active {
 .content table:not(:last-child) {
   margin-bottom: 0em; 
   margin-top: 0.25em;
-  text-indent: 1rem;
-  text-align: justify;
 }
 
 *::selection {
@@ -1182,9 +1181,12 @@ a.box-feed:active {
 
 .content blockquote {
   background-color: var(--bg-sub);
-  border-left: 5px solid var(--border-color);
   padding: 1.25em 1.5em;
-  border-left: 3px solid var(--text-main);
+  /* border-left: var(--border-style) var(--border-color) var(--border-width); */
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
 }
 
 .content ol {

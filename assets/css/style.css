@@ -1107,7 +1107,7 @@ hr {
     padding:10px;
     border-radius:3px;
     text-indent: 0;
-    hyphens: auto:
+    hyphens: auto;
     background-color: var(--bg-main);
     text-align: justify;
     border: var(--border-style) var(--border-width) var(--border-color);
