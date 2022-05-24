@@ -88,14 +88,14 @@
   "active": "72b38262db67c034",
   "lastOpenFiles": [
     "_includes/Header.html",
+    "_includes/Homepage.html",
+    "_includes/Footer.html",
+    "_includes/text-expand.html",
     "_posts/2022-04-25-articles.md",
     "_notes/Public/Lipsum.md",
     "_notes/Public/Lipsum2.md",
-    "_includes/Homepage.html",
     "assets/img/Lipsum.svg",
     "assets/img/Lipsum .excalidraw.md",
-    "_notes/Public/Xanadu.md",
-    "assets/img/Excalidraw/Drawing 2022-05-23 14.52.49.excalidraw.md",
-    "_notes/Public/No One Is Talking About This.md"
+    "_notes/Public/Xanadu.md"
   ]
 }

@@ -245,6 +245,7 @@ button,
 input,
 select,
 textarea {
+  text-align: justify;
   font-family: "Averia Serif Libre", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", serif; }
 
 code,
@@ -1754,7 +1755,7 @@ a.tag:hover {
   border-color: var(--border-color);
   border-style: var(--border-style);
   border-width: var(--border-width);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   color: var(--text-main); }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
     color: var(--text-main); }
