@@ -10,7 +10,7 @@ So why reinvent the wheel? If a given paragraph I write has already been written
 
 This sort of idea was popular in the early computer networking community. There was a convergence with the kind of highly interdisciplinary super-generalized philosophy of information being done at the time, stuff like cybernetics and structuralist linguistics[[Cf. the work of people like [Vannevar Bush](https://en.wikipedia.org/wiki/Vannevar_Bush), [Stafford Beer](https://en.wikipedia.org/wiki/Stafford_Beer), [Alfred Korzybski](https://en.wikipedia.org/wiki/General_semantics)::rsn]] promising to transform the nature of knowledge. [Project Xanadu](https://en.wikipedia.org/wiki/Project_Xanadu), an [infamous](https://www.wired.com/1995/06/xanadu/) early contendor to the World Wide Web, believed that documents could work through a visible network of direct [transclusion](https://en.wikipedia.org/wiki/Transclusion) and citation.
 
-![Xanadu](/assets/img/Xanadu.png)
+![Xanadu](/assets/img/Xanadu.png?b&w)
 
 Intellectual work would be as much collating parts of things and connecting them as directly producing something new. It was impractical for a lot of reasons and most of those idealistic mid century projects hoping to rationalize or revolutionize human thought were overambitious failures. But I think about it a lot because I deeply sympathize with the problem I feel like they were trying to solve. The intellectual busywork.
 

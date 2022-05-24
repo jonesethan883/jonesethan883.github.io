@@ -20,7 +20,7 @@ You can also talk about the structure within articles. Wikipedia makes heavy use
 
 There are good applications for either. For technical writing and reference documents it would be annoying to read through paragraphs of exposition searching for the one piece of information you need so structure helps them to be skimmable. But I think a longer flow length is useful for first contact. When a new idea is being explained the more context you have the better and long flow lengths help you feel absorbed in the information. 
 
-A lot of things can disrupt this narrative flow. Here are some images from a very well regarded textbook, Michael Spivak's *Calculus*[[ISBN: 0-914098-89-6::rsn]]. You don't need to read them, just skim the way it's organized.
+A lot of things can disrupt this narrative flow. Here are some images from a well designed textbook, Michael Spivak's *Calculus*[[ISBN: 0-914098-89-6::rsn]]. You don't need to read them, just skim the way it's organized.
 <br>
 ![spivak 1](/assets/img/Spivak1b&w.jpg)
 

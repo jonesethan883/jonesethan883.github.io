@@ -17,11 +17,13 @@ html, html[data-theme="light"] {
     --border-width: 1px;
     --border-radius: 8px;
     --stale-link-color: #FFFFC4;
+    --highlight-color: #18181C;
+    --highlight-text-color: #fafafa;
     --img-invert: 7%;
     --img-sepia: 8%;
     --img-saturate: 1009%;
-    --img-hue-rotate: 201deg;
-    --img-brightness: 92%;
+    --img-hue-rotate: 0deg;
+    --img-brightness: 100%;
     --img-contrast: 92%;
     --img-regularInvertLevel: 0%;
     --img-mix-blend-mode: multiply;
@@ -36,14 +38,16 @@ html[data-theme="dark"] {
     --link: #6D9EFF;
     --border-color: #FaFaFa;
     --border-style: solid;
-    --border-width: 3px;
+    --border-width: 1px;
     --border-radius: 8px;
     --stale-link-color: #440e48;
+    --highlight-color: #b5b5b5;
+    --highlight-text-color: #18181c;
     --img-invert: 64%;
     --img-sepia: 69%;
     --img-saturate: 0%;
-    --img-hue-rotate: 156deg;
-    --img-brightness: 100%;
+    --img-hue-rotate: 180deg;
+    --img-brightness: 70%;
     --img-contrast: 91%;
     --img-regularInvertLevel: 100%;
     --img-mix-blend-mode: screen;
@@ -63,6 +67,8 @@ html[data-theme="dark"] {
     --border-width: 3px;
     --border-radius: 8px;
     --stale-link-color: #440e48;
+    --highlight-color: #adadad;
+    --highlight-text-color: #e31414;
     --img-invert: 64%;
     --img-sepia: 69%;
     --img-saturate: 0%;
@@ -85,6 +91,8 @@ html[data-theme="dark"] {
     --border-width: 3px;
     --border-radius: 8px;
     --stale-link-color: #FFFFC4;
+    --highlight-color: #adadad;
+    --highlight-text-color: #e31414;
     --img-invert: 7%;
     --img-sepia: 8%;
     --img-saturate: 1009%;
@@ -250,6 +258,7 @@ h3 {
 h4 {
     font-size: 1.2rem;
     font-weight: 600;
+    margin-bottom: 0em;
 }
 
 h5 {
@@ -1072,7 +1081,9 @@ hr {
     margin-top: 2em;
     margin-bottom: 0;
     vertical-align: baseline;
-    position: relative; 
+    position: sticky; 
+    top: 30px;
+    z-index: 1;
     padding: 10px;
     background-color: var(--bg-main);
     text-align: center;
@@ -1096,8 +1107,9 @@ hr {
     padding:10px;
     border-radius:3px;
     text-indent: 0;
+    hyphens: auto:
     background-color: var(--bg-main);
-    text-align:center;
+    text-align: justify;
     border: var(--border-style) var(--border-width) var(--border-color);
 }
 
@@ -1118,8 +1130,10 @@ hr {
     vertical-align: baseline;
     position: relative; 
     padding: 10px;
+    text-indent: 0;
+    hyphens: auto;
     background-color: var(--bg-main);
-    text-align: center;
+    text-align: justify;
     border: var(--border-style) var(--border-width) var(--border-color);
 
 }
@@ -1243,6 +1257,7 @@ li .mn-right {
     transform:translate(50%,-50%) rotate(-45deg);
     background-color: var(--bg-main);
     box-shadow:0 1px 8px var(--card-drop-shadow);
+    border: var(--border-style) var(--border-color) var(--border-width);
 }
 
 .right .tooltip-title {
@@ -1633,7 +1648,9 @@ label.margin-toggle:not(.sidenote-number) {
     margin: 0;
     margin-bottom: 2em;
     border-style: none;
-    border-bottom: solid;
+    border-bottom: var(--border-style) var(--border-width) var(--border-color);
+    position: relative;
+    top: 0px;
 }
 .navbar-elements {
     font-size: 20px;

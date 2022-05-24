@@ -283,18 +283,16 @@ hr {
   margin: 0.5rem 0; }
 
 img {
-  height: auto;
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom: .5em;
   margin-top:1em;
-  margin-bottom:1.5em;
   max-width: 100%; }
-
 /* Makes SVGs or image names containing the string "totalinvert_" invertible */
 img[src$=".svg"],img[src*="b&w"] {
   /* filter: invert(var(--img-invert)) sepia(var(--img-sepia)) saturate(var(--img-saturate)) hue-rotate(var(--img-hue-rotate)) brightness(var(--img-brightness)) contrast(var(--img-contrast)); */ 
-  filter: invert(var(--img-regularInvertLevel));
+  filter: invert(var(--img-regularInvertLevel)) hue-rotate(var(--img-hue-rotate)) brightness(var(--img-brightness));
   mix-blend-mode: var(--img-mix-blend-mode);
 }
 
@@ -1174,9 +1172,13 @@ a.box-feed:active {
   margin-bottom: 0em; 
   margin-top: 0.25em;
   text-indent: 1rem;
-
+  text-align: justify;
 }
 
+*::selection {
+    background-color: var(--highlight-color);
+    color: var(--highlight-text-color);
+}
 
 .content blockquote {
   background-color: var(--bg-sub);
@@ -1749,7 +1751,7 @@ a.tag:hover {
   background-color: var(--bg-main);
   border-color: var(--border-color);
   border-style: var(--border-style);
-  border-width: var(--border-color);
+  border-width: var(--border-width);
   border-radius: 8px;
   color: var(--text-main); }
   .input::-moz-placeholder, .textarea::-moz-placeholder, .select select::-moz-placeholder {
@@ -4013,5 +4015,10 @@ details[open] summary {
 
 }
 
-
+figcaption {
+    text-align: center;
+    margin-bottom: 1em;
+    font-style: italic;
+    cursor: pointer;
+}
 
