@@ -550,9 +550,6 @@ summary {
 }
 
 
-details[open] {
-    padding: .5em;
-}
 details:not([open]){
     flex-flow: column;
 }
@@ -569,7 +566,6 @@ details.mn-left:not([open]) summary::after, details.mn-right:not([opem]) summary
 }
 
 details[open] summary {
-    border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
 
 }
