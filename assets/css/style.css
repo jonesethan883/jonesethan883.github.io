@@ -10,7 +10,7 @@ html, html[data-theme="light"] {
     --bg-sub: #FaFaFa;
     --color-bis: #363636;
     --text-main: #18181C;
-    --text-sub: #5D5D67;
+    --text-sub: #18181C;
     --link: #1c4970;
     --border-color: #363636;
     --border-style: solid;
@@ -160,6 +160,7 @@ mark {
     font-family: "Spectral", sans-serif;
     font-size: 24px;
     color: var(--text-main);
+    font-weight: 600;
 }
 
 .navbar-elements > a {
@@ -239,6 +240,16 @@ button {
 */
 
 /* Minor third with base font 14px */
+
+
+/* Major third with base font 16px */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Spectral", sans-serif;
+    letter-spacing: -.03em;
+    text-align: left;
+    
+}
+
 h1 {
     font-size: 2.074rem;
     font-weight: 600;
@@ -271,8 +282,6 @@ h6 {
     font-weight: 600;
 }
 
-
-/* Major third with base font 16px */
 @media screen and (min-width: 600px), print {
     html {
         font-size: 20px !important; 
@@ -310,12 +319,6 @@ h6 {
         font-size: 1rem;
         font-weight: 600;
     }
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Spectral", sans-serif;
-    letter-spacing: -.03em;
-    
 }
 
 p a,
@@ -1110,7 +1113,7 @@ hr {
     vertical-align: baseline;
     position: relative; 
     padding:10px;
-    border-radius:3px;
+    border-radius:var(--border-radius);
     text-indent: 0;
     hyphens: auto;
     background-color: var(--bg-main);
@@ -1139,6 +1142,7 @@ hr {
     hyphens: auto;
     background-color: var(--bg-main);
     text-align: justify;
+    border-radius: var(--border-radius);
     border: var(--border-style) var(--border-width) var(--border-color);
 
 }
@@ -1346,7 +1350,7 @@ label.srs-toggle {
 .related-group {
     width: 95% !important;
     height: 100%;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     background-color: var(--bg-sub);
     padding: 16px;

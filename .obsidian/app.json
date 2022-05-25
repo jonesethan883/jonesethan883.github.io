@@ -7,6 +7,6 @@
   "showLineNumber": true,
   "spellcheck": false,
   "showUnsupportedFiles": true,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "readableLineLength": true
 }

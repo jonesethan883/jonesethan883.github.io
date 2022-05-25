@@ -101,7 +101,7 @@ hr,
 }
 
 ul {
-  list-style: none; }
+  list-style: disc; }
 
 button,
 input,
@@ -518,7 +518,6 @@ a.tag:hover {
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--text-sub);
     margin-bottom: 8px;
     letter-spacing: 0.2em;
     padding-top: 16px;
@@ -553,7 +552,7 @@ summary {
 details:not([open]){
     flex-flow: column;
 }
-details.mn-left:not([open]) summary::after, details.mn-right:not([opem]) summary::after{
+details.mn-left:not([open]) summary::after, details.mn-right:not([open]) summary::after{
     font-weight: bold;
     content: " Expand ➤";
     flex-flow: column;
@@ -569,7 +568,6 @@ details[open] summary {
     margin-bottom: .5em;
 
 }
-
 figcaption {
     text-align: center;
     margin-bottom: 1em;
@@ -577,6 +575,22 @@ figcaption {
     cursor: pointer;
 }
 
+.box-feed p {
+    text-indent: 0
+}
+p { 
+    margin-bottom: .25em;
+}
 
+p + p {
+    text-indent: 1.5em;
+    margin-top:0;
+}
 
+.mn-left + p, .mn-right + p, .sn-left + p, .sn-right + p {
+    margin-top:0;
+}
 
+button {
+    cursor: pointer;
+}
