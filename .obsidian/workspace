@@ -4,14 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "533021016593fff4",
+        "id": "bd010045747fb443",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2022-05-16-about.md",
+            "file": "_notes/Public/How to use this theme.md",
             "mode": "source",
             "source": true
+          }
+        }
+      },
+      {
+        "id": "e74fa1b2f3e46410",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "assets/img/hypergarden.png"
           }
         }
       }
@@ -40,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "book",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-05-16-about.md",
+                "file": "_notes/Public/How to use this theme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "533021016593fff4",
+  "active": "bd010045747fb443",
   "lastOpenFiles": [
+    "_notes/Public/How to use this theme.md",
+    "_notes/Public/Lipsum.md",
+    "_notes/Public/Reviews/Nightcrawler.md",
     "_posts/2022-05-16-about.md",
+    "assets/img/hypergarden.png",
+    "_notes/Public/Ugly Textbooks.md",
     "_config.yml",
-    "_includes/Header.html",
-    "_notes/Public/Nightcrawler.md",
-    "_notes/Public/Satin Island.md",
-    "_site/notes/Satin-Island.html",
-    "_layouts/Post.html",
-    "_layouts/Stylesheet.html",
-    "_includes/Booklist.html",
-    "pages/reviews.md"
+    "autocomplete.txt",
+    "blog.code-workspace",
+    "README.md"
   ]
 }

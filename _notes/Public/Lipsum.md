@@ -5,10 +5,16 @@ notetype : feed
 date : 16-05-2022
 mathjax : true
 ---
-
+#tag 
 This is a page used to test various features of the website. Click [here](/assets/txt/Lipsum.txt) to see the raw markdown file which gets rendered into this webpage.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lectus eget metus sollicitudin tincidunt. Sed pharetra egestas augue, et suscipit libero congue in. Nulla vitae maximus lorem. Vivamus varius mi ut malesuada malesuada. Praesent ullamcorper id ipsum eu hendrerit. Donec dictum mattis gravida. Suspendisse commodo facilisis posuere. Aliquam leo ante, tempus eu consectetur id, ultricies vitae mi. $\phi$ [[Inline math. MathJax requires loading a large external JavaScript file so it's only turned on for posts that actually have math to render::rmn]]Sed blandit velit sit amet viverra condimentum. Donec imperdiet sagittis lectus, dictum convallis mauris tristique sed. Praesent laoreet ornare orci, lobortis tincidunt odio pretium euismod. [[assets/img/parenting.png::lmn-ibw]]
+
+[[Ugly Textbooks]]
+
+[[The Founder]]
+
+[[assets/img/Sriracha.png]]
 
 > Nam sed augue et orci vehicula pharetra vel nec nibh. Proin velit tellus, suscipit sit amet sapien sed, sollicitudin interdum erat. Praesent suscipit porta neque, eu laoreet elit feugiat in. Curabitur tempus metus id urna tincidunt placerat. In hac habi
 
