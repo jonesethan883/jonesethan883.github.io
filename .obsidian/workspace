@@ -9,19 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/How to use this theme.md",
+            "file": "_notes/Public/Lipsum.md",
             "mode": "source",
             "source": true
-          }
-        }
-      },
-      {
-        "id": "e74fa1b2f3e46410",
-        "type": "leaf",
-        "state": {
-          "type": "image",
-          "state": {
-            "file": "assets/img/hypergarden.png"
           }
         }
       }
@@ -79,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/How to use this theme.md",
+                "file": "_notes/Public/Lipsum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +89,15 @@
   },
   "active": "bd010045747fb443",
   "lastOpenFiles": [
-    "_notes/Public/How to use this theme.md",
     "_notes/Public/Lipsum.md",
+    "_notes/Public/American Psycho.md",
+    "_notes/Public/How to use this theme.md",
+    "_notes/Public/Reviews/Untitled.md",
     "_notes/Public/Reviews/Nightcrawler.md",
+    "_posts/2022-04-25-articles.md",
+    "assets/img/Ugly Textbooks 2022-05-21 19.13.09.excalidraw.md",
+    "_includes/Content.html",
     "_posts/2022-05-16-about.md",
-    "assets/img/hypergarden.png",
-    "_notes/Public/Ugly Textbooks.md",
-    "_config.yml",
-    "autocomplete.txt",
-    "blog.code-workspace",
-    "README.md"
+    "_notes/Public/Reviews/Satin Island.md"
   ]
 }

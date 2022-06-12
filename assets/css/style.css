@@ -247,6 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Spectral", sans-serif;
     letter-spacing: -.03em;
     text-align: left;
+    margin-bottom: .25em;
     
 }
 
@@ -259,6 +260,7 @@ h1 {
 h2 {
     font-size: 1.728rem;
     font-weight: 600;
+    text-indent: 1em;
 }
 
 h3 {
@@ -305,7 +307,7 @@ p + h1 {
 
     h3 {
         font-size: 1.1rem;
-        font-weight: 400;
+        font-weight: 600;
     }
 
     h4 {
@@ -552,33 +554,6 @@ hr {
 
 .site-heading-ltr a {
     text-decoration: none;
-}
-
-
-.avatar {
-    position: absolute;
-    top: 50px;
-    left: 10px;
-}
-
-.avatar-link {    
-    background-color: var(--bg-main);
-    border-radius: 50%;
-    display: inline-block !important;
-    float: left;
-    margin: -35px 5px 0 8px;
-    max-width: 100%;
-    padding: 1px;
-    vertical-align: bottom;
-    font-family:  var(--primary-font-family);
-}
-
-.avatar-img {
-    border: 2px solid var(--bg-main);
-    border-radius: 50%;
-    box-sizing: border-box;
-    height: 85px;
-    width: 85px;
 }
 
 
@@ -1103,8 +1078,8 @@ hr {
     margin-right: unquote("mAx(Calc(((100Vw - 100%)/-2) + 15px),-425px)");
     width: unquote("Calc(((100Vw - 100%)/2) - 30px)");
     max-width: 380px;
-    margin-top: 2em;
-    margin-bottom: 0;
+    margin-top: 0em;
+    margin-bottom: 2em;
     vertical-align: baseline;
     position: relative; 
     padding:10px;
@@ -1128,8 +1103,8 @@ hr {
        here because you can't use the calc() and max() functions with different units in SCSS */
     
     max-width: 380px;
-    margin-top: 2em;
-    margin-bottom: 0;
+    margin-top: 0em;
+    margin-bottom: 2em;
     vertical-align: baseline;
     position: relative; 
     padding: 10px;

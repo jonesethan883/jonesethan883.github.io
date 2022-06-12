@@ -190,12 +190,12 @@ a {
 
 code {
   background-color: var(--bg-sub);
-  color: #f14668;
+  color: var(--text-main);
   text-align:left;
-  text-indent:none;
   font-size: 0.875em;
-  font-weight: normal;
-  padding: 0.25em 0.5em 0.25em; }
+  font-weight: bold;
+  text-indent: 0;
+}
 
 hr {
   background-color: var(--border-color);
@@ -602,9 +602,15 @@ p {
     margin-bottom: .25em;
 }
 
-p + p {
+.content > p {
     text-indent: 1.5em;
     margin-top:0;
+}
+p:first-of-type{
+    text-indent: 0em;
+}
+.content > code {
+    text-indent: 0em;
 }
 
 .mn-left + p, .mn-right + p, .sn-left + p, .sn-right + p {
@@ -614,4 +620,3 @@ p + p {
 button {
     cursor: pointer;
 }
-

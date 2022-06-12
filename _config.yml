@@ -81,6 +81,12 @@ preferences:
   homepage: 
     enabled: true  ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
+# just-the-docs syntax for comments
+callouts:
+    warning:
+        title: Warning
+        color: red
+
 encoding: utf-8
 
 # Build settings
@@ -89,6 +95,7 @@ plugins:
   - jekyll-feed 
   - jekyll-sitemap 
   - jekyll-tidy
+  - jektex
 
 ## Enable _notes Collection 
 collections:
