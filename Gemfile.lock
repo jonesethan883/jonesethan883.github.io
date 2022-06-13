@@ -21,7 +21,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jektex (0.0.8)
+    jektex (0.0.7)
       digest (~> 3.0, >= 3.0.0)
       execjs (~> 2.8, >= 2.8.1)
       htmlentities (~> 4.3, >= 4.3.4)
@@ -99,7 +99,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jektex (~> 0.0.7)
+  jektex (= 0.0.7)
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
