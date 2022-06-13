@@ -1,5 +1,6 @@
 ---
-notetype: feed
+title: How to use this theme
+notetype: unfeed
 date: June 6th, 2022
 ---
 

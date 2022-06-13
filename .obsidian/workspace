@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_notes/Public/Lipsum.md",
+            "file": "_notes/Public/How to use this theme.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/Lipsum.md",
+                "file": "_notes/Public/How to use this theme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "bd010045747fb443",
   "lastOpenFiles": [
+    "_notes/Public/How to use this theme.md",
     "_notes/Public/Lipsum.md",
     "_notes/Public/American Psycho.md",
-    "_notes/Public/How to use this theme.md",
     "_notes/Public/Reviews/Untitled.md",
     "_notes/Public/Reviews/Nightcrawler.md",
     "_posts/2022-04-25-articles.md",
