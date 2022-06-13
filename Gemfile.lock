@@ -99,7 +99,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jektex (~> 0.0.8)
+  jektex (~> 0.0.7)
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
