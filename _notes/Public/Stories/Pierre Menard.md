@@ -1,10 +1,10 @@
 ---
-title: Pierre Menard Author of Don Quixote, by Jorge Luis Borges
+title: Pierre Menard Author of Don Quixote
+subtitle: by Jorge Luis Borges
 notetype: unfeed
 date: 2022-05-26
 ---
-# Pierre Menard: Author of Don Quixote
-# by Jorge Luis Borges
+
 
 The visible *ouvre* left by this novelist can be easily and briefly enumerated. It is therefore impossible to forgive the omissions and additions perpetrated by Madame Henri Bachelier in a fallacious catalogue that a certain newspaper, whose Protestant tendencies are no secret, was inconsiderate enough to inflict on its wretched readers— even though they are few and Calvinist, if not Masonic and circumcised. Menard's true friends regarded this catalogue with alarm, and even with a certain sadness. It is as if yesterday we were gathered together before the final marble and the fateful cypresses, and already Error is trying to tarnish his Memory… Decidedly, a brief rectification is inevitable.
 
@@ -76,7 +76,7 @@ Equally vivid is the contrast in styles. The archaic style of Menard— in the l
 
 There is no intellectual exercise which is not ultimately useless. A philosophical doctrine is in the beginning a seemingly true description of the universe; as the years pass it becomes a mere chapter— if not a paragraph or a noun— in the history of philosophy. In literature, this ultimate decay is even more notorious. "Don Quixote," Menard once told me, "was above all an agreeable book; now it is an occasion for patriotic toasts, grammatical arrogance and obscene deluxe editions. Glory is an incomprehension, and perhaps the worst."
 
-These nihilist arguments contain nothing new; what is unusual is the decision Pierre Menard derived from them. He resolved to outstrip that vanity which awaits all the woes of mankind; he undertook a task that was complex in the extreme and futile from the outset. He dedicated his conscience and nightly studies to the repetition of a pre-existing book in a foreign tongue. The number of rough drafts kept on increasing; he tenaciously made corrections and tore up thousands of manuscript pages.[[I remember his square-ruled notebooks, the black streaks where he had crossed out words, his peculiar typographical symbols and his insect-like handwriting. In the late afternoon he liked to go for walks on the outskirts of Nimes; he would take a notebook with him and make a gay bonfire.::rmn]] He did not permit them to be examined, and he took great care that they would not survive him. It is in vain that I have tried to reconstruct them.
+These nihilist arguments contain nothing new; what is unusual is the decision Pierre Menard derived from them. He resolved to outstrip that vanity which awaits all the woes of mankind; he undertook a task that was complex in the extreme and futile from the outset. He dedicated his conscience and nightly studies to the repetition of a pre-existing book in a foreign tongue. The number of rough drafts kept on increasing; he tenaciously made corrections and tore up thousands of manuscript pages.[[I remember his square-ruled notebooks, the black streaks where he had crossed out words, his peculiar typographical symbols and his insect-like handwriting. In the late afternoon he liked to go for walks on the outskirts of Nimes; he would take a notebook with him and make a gay bonfire.::rsn]] He did not permit them to be examined, and he took great care that they would not survive him. It is in vain that I have tried to reconstruct them.
 
 I have thought that it is legitimate to consider the "final" Don Quixote as a kind of palimpsest, in which should appear traces— tenuous but not undecipherable— of the "previous" handwriting of our friend. Unfortunately, only a second Pierre Menard, inverting the work of the former, could exhume and rescuscitate these Troys…
 

@@ -40,6 +40,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-analytics (0.1.14)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -50,6 +51,9 @@ GEM
       htmlbeautifier
       htmlcompressor
       jekyll
+    jekyll-typogrify (0.3.5)
+      titlecase
+      typogruby
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     katex (0.8.0)
@@ -68,14 +72,13 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    premonition (4.0.1)
-      jekyll (>= 3.7, < 5.0)
     public_suffix (4.0.6)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.26.0)
+    rubypants (0.7.1)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -84,6 +87,9 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
+    titlecase (0.1.1)
+    typogruby (1.0.18)
+      rubypants
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
     tzinfo-data (1.2021.1)
@@ -99,13 +105,14 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jektex (= 0.0.7)
+  jektex
   jekyll (~> 4.0.0)
+  jekyll-analytics
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-tidy
+  jekyll-typogrify
   kramdown-math-katex
-  premonition (= 4.0.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

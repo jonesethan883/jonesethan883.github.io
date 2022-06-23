@@ -17,7 +17,8 @@ gem "jekyll", "~> 4.0.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-tidy"
-  gem 'jektex', '0.0.7'
+  gem 'jektex'
+  gem "jekyll-analytics"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -25,7 +26,6 @@ end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
-  gem "premonition", "4.0.1"
 end
 
 # Performance-booster for watching directories on Windows

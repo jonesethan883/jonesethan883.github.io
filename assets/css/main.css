@@ -620,3 +620,9 @@ p:first-of-type{
 button {
     cursor: pointer;
 }
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
