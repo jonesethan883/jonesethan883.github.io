@@ -144,7 +144,7 @@
                     {%- endif -%}
                 {%- else -%}
                     {%- if site.preferences.sidenotes.enabled -%}
-               			{%- if title.size > 500 -%}
+               			{%- if title.size > 1000 -%}
                            {%- assign note_summary = title | truncatewords: 50, "" -%}
                            {%- assign summary_size = note_summary.size | plus: 1 -%}
                            {%- assign note_details = title | slice: summary_size, title.size -%}

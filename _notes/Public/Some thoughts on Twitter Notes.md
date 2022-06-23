@@ -1,5 +1,5 @@
 ---
-title: Twitter Notes
+title: Some thoughts on Twitter Notes
 notetype: feed
 date: 23-06-2022
 ---
@@ -9,21 +9,30 @@ Twitter has a new feature called Notes. It lets you write blog posts on Twitter 
 
 I think this is an OK idea, but it has some flaws.
 They’re recognizing a common dynamic where people write posts on medium/their own site/whatever and link to them on Twitter to promote them, and they’ve very reasonably thought ‘well, medium is a pretty basic platform, why not just do that ourselves'. 
-But I think they’ve restricted themselves by thinking of it as a Blogging Platform where articles have Titles and Hero Images.
+But I think they’ve restricted themselves by treating it as a Blogging platform which I don't think is going to integrate as well as it could with Twitter proper.
 
-## Blogging? Like a loser?
+## Blogs? Like for losers?
 
 One of the neat things about social media is that it has this ability to trick people into writing. 
-People who would never write a Blog Post or an Essay are perfectly capable of writing Tumblr posts or Twitter threads or Reddit comments that end up being thousands of words long.[[E.g. I wrote the first draft of this article in a Discord server::rmn]]
+People who would never write a Blog Post or an Essay are perfectly capable of writing Tumblr posts or Twitter threads or Reddit comments that end up being thousands of words long.
+[[E.g. I wrote the first draft of this article in a Discord server::rmn]]
 They get really familiar with using the format from lots of low and medium effort content that feels very low stakes compared to writing a blog post which I think makes people feel more self conscious- 
 "Who am I to be putting my random thoughts in an article with a title and going around asking people to read it?''
-And that restricts the potential. On Tumblr e.g. there's a common dynamic where someone will post a meme about dinosaurs and then a paleontologist will respond with a 2,000 word post about some real topic relevant to the meme. I don’t think you could get that with Notes.
+And that restricts the potential.
+[[I don't have any good ideas on how you could overcome this without just sacrificing the character limit entirely, which would obviously not be tenable for Twitter. Maybe some sort of prompt which asks people if they want to turn a thread into a Note once it gets long enough?::lmn]]
+On Tumblr e.g. there's a common dynamic where someone will post a meme about dinosaurs and then a paleontologist will respond with a 2,000 word post about some real topic relevant to the meme. 
+I don’t think you could get that with Notes.
 
-As I see it there are two relevant classes of Twitter users who might use this feature. Brands and Professionals
+## Who Tweets and why
+As I see it there are two relevant classes of Twitter users who might use this feature: Brands and Professionals.
+Brands could be actual brands like Wendy's or individual brands like celebrities all the way down to the lowest form of Brand and the highest form of Professional, the Thought Leader. 
+For the Brand, Twitter is mainly a PR platform. 
+They make announcements, advertise, and drive fans to the things that actually make them money.
 
-Brands could be actual brands like Wendy's or individual brands like celebrities all the way down to the lowest form of Brand and the highest form of Professional, the thought leader. For the Brand Twitter is mainly a PR platform. They make announcements, advertise, and drive fans to the things that actually make them money.
-
-For the Professional Twitter functions as a kind of professional network. This is a very important but not very visible function of Twitter. This is where you see a lot of people who are relatively normal, 25-35 with good jobs. Often their profile says what their name is or at least what their job is. 
+For the Professional, Twitter functions as a professional network. 
+This is an important but not very visible function. 
+Professional Twitter is where you see a lot of people who are relatively normal, 25-35 with good jobs. 
+Often their profile is attached to their real name or at least .
 [[I'm reminded of the way scientific journals evolved from just professional scientists and doctors writing and publishing letters to one another about things they've noticed in their line of work to a Prestigous and Official Venue for Publishing Articles. Nowadays to hear the relatively unfiltered thoughts of professionals musing on things that affect them I'd most likely go to Twitter.::lmn]]
 They use Twitter the way it was originally intended, a microblogging tool. They share thoughts about what life is like in their corner of the world, do short threads about their work and interests, and follow people doing something similar. 
 And this ends up being the memetic layer for a lot of different professions, especially tech professions.
@@ -50,5 +59,9 @@ For a while at the beginning you had to [[remind people::https://medium.com/@dre
 
 > Did you know that anyone can write anything on Medium.com? Then when someone shares your work to another website, it will look like a real, legitimate article? You can type whatever you like and people will think that your work was vetted by an editorial process. You can confuse anyone into believing your writing was deemed worthy of publication by another human being. Someone is bound to see your article and think, “oh, this is a real piece of journalism because here it is on a shiny website.”
 
-The same thing is going to happen, and starting to happen a little, with Substack.
-Twitter notes will likely suffer a similar fate, probably earlier since something attached to the Twitter brand seems unlikely to attract the same initial burst of prestige that Medium and Substack got.
+But of course it didn't stay cool forever. It went from the platform of choice for funky tastemakers hip enough to know it existed and care about it's design choices to being filled with all the mediocrity that makes up [[90% of everything::https://en.wikipedia.org/wiki/Sturgeon's_law]]
+I can't speak to a general sentiment, but nowadays seeing that an article is published on Medium leaves me with the same taste I used to get from those default theme WordPress or Blogger blogs.
+It feels low effort, and has associations with all the low effort SEO bait content I've seen on the same website.
+That's not to say that I won't read an article just because it's on Medium, or that there aren't lots of great articles and writing published on it, only that the format doesn't do the content any favors.
+
+So now that Medium has a tired reputation all those tastemakers are starting to move to Substack. Both used the strategy of paying prestigous writers to move their content to the platform and build its reputation before throwing the doors open to the masses. Presumably Substack will end up meeting the same fate as Medium. Twitter notes may not even get off the ground- any amount of prestige would be fighting against the existing Twitter brand.

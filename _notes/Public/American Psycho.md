@@ -1,6 +1,6 @@
 ---
 title: American Psycho
-notetype: reviews
+notetype: unfeed
 date: 2022-06-12
 wip: true
 ---
