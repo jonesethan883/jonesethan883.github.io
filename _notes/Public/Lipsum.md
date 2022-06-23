@@ -8,7 +8,7 @@ date : 16-05-2022
 
 This is a page used to test various features of the website. Click [here](/assets/txt/Lipsum.txt) to see the raw markdown file which gets rendered into this webpage.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lectus eget metus sollicitudin tincidunt.  $$\phi = \sqrt{x_i}$$ [[Inline math. KaTeX is rendered entirely server side and displayed using regular text and SVGs. It ends up being quite fast.::rmn]]Sed blandit velit sit amet viverra condimentum. Donec imperdiet sagittis lectus, dictum convallis **bold text tristique sed**. Praesent *italic text laoreet ornare orci*, lobortis tincidunt odio pretium euismod. [[assets/img/parenting.png::lmn-ibw]]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lectus eget metus sollicitudin tincidunt.  $$\phi = \sqrt{x_i}$$ [[IMath doesn't work right now, I'll fix it at some point. Just an issue with the jekyll plugin not being supported by github pages.::rmn]]Sed blandit velit sit amet viverra condimentum. Donec imperdiet sagittis lectus, dictum convallis **bold text tristique sed**. Praesent *italic text laoreet ornare orci*, lobortis tincidunt odio pretium euismod. [[assets/img/parenting.png::lmn-ibw]]
 
 > Blockquote. sed augue et orci vehicula pharetra vel nec nibh. Proin velit tellus, suscipit sit amet sapien sed, sollicitudin interdum erat. Praesent suscipit porta neque, eu laoreet elit feugiat in. Curabitur tempus metus id urna tincidunt placerat. In hac habi
 

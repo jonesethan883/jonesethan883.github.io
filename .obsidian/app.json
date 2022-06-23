@@ -11,5 +11,6 @@
   "readableLineLength": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "_notes/Public",
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "lineWrap": true
 }
